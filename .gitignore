@@ -1,15 +1,48 @@
-.vercel
-node_modules
-target
-dist
-logs
-public
-.cache
-.vscode
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# build output
+dist/
+build/
+
+# vercel
+.vercel/
+
+# typescript
+*.tsbuildinfo
+
+# testing
+coverage/
+test-results/
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# env files
+.env
+.env*.local
+
+# misc
+.cache/
 .DS_Store
-.idea
-.next
-yarn-error.log
-npm-debug.log
-.next-stale-i18n
-exports
+.idea/
+.vscode/
+*.pem
+*.log
+logs/
+
+# preview logs
+.next-preview.*
+
+# stale i18n
+.next-stale-i18n/
+
+# exports
+exports/
