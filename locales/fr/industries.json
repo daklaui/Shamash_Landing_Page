@@ -1,0 +1,15 @@
+{
+  "metadata": {"title": "Secteurs accompagnés par Shamash IT", "description": "Shamash IT accompagne les institutions financières, PME, opérations d’entreprise, équipes administratives, conformité, dirigeants et équipes produit en Tunisie, en Afrique et en Europe."},
+  "hero": {"eyebrow": "Secteurs", "title": "Des technologies d’entreprise pour les équipes aux responsabilités opérationnelles complexes.", "description": "Shamash IT accompagne les organisations qui recherchent un meilleur contrôle du financement, des documents, de la gestion, des workflows, de l’infrastructure, du reporting et des produits numériques.", "panelEyebrow": "Adéquation sectorielle", "panelTitle": "Conçu pour les organisations où la maîtrise des workflows, le reporting et la fiabilité sont essentiels.", "metricLabel": "groupes sectoriels couverts par les solutions Shamash IT", "chips": ["Finance", "Opérations", "Conformité"]},
+  "section": {"eyebrow": "Crédibilité sectorielle", "title": "Des contextes où la sécurité des systèmes opérationnels est déterminante.", "description": "Shamash IT intervient là où les logiciels doivent soutenir de vrais contrôles métier : financement, documents, opérations, infrastructure, reporting et fiabilité à long terme."},
+  "needs": {"eyebrow": "Besoins communs", "title": "Des secteurs différents, un même besoin de clarté opérationnelle sécurisée."},
+  "items": {
+    "banking": {"name": "Banque et services financiers", "description": "Affacturage, risque de crédit, workflows sécurisés, intégrations, reporting réglementaire et opérations de niveau institutionnel.", "needs": ["Plateformes d’affacturage", "Visibilité des risques", "Reporting sécurisé"]},
+    "sme": {"name": "PME et entreprises en croissance", "description": "Gestion d’entreprise, factures, achats, stock, paiements, maîtrise de trésorerie et tableaux de bord de direction.", "needs": ["ERP", "Trésorerie", "Stock"]},
+    "enterprise": {"name": "Opérations d’entreprise", "description": "Refonte des workflows, intégration des systèmes, plateformes internes, infrastructure cloud et support technique managé.", "needs": ["Automatisation", "Intégrations", "Support"]},
+    "administration": {"name": "Équipes administratives, juridiques et conformité", "description": "Numérisation documentaire, OCR, circuits d’approbation, signatures, maîtrise des dossiers, traçabilité et archivage sécurisé.", "needs": ["OCR", "Approbations", "Archivage"]},
+    "technology": {"name": "Équipes technologie et produit", "description": "Produits web et mobile sur mesure, API, plateformes SaaS, architecture, DevOps, supervision et évolution produit.", "needs": ["Applications", "API", "DevOps"]},
+    "executives": {"name": "Dirigeants et directions financières", "description": "Visibilité opérationnelle, reporting cohérent, décisions plus rapides, flux de données sécurisés et transformation mesurable.", "needs": ["Visibilité", "Reporting", "Contrôle"]}
+  },
+  "finalCta": "Trouvez le parcours Shamash IT adapté à votre secteur."
+}

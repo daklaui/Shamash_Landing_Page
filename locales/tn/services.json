@@ -1,0 +1,27 @@
+{
+  "metadata": {"title": "Enterprise software وAI Automation وCloud وIT managé", "description": "اكتشف خدمات Shamash IT في Enterprise software، AI Automation، digital transformation، Cloud، Cybersecurity وsupport IT managé."},
+  "hero": {"eyebrow": "الخدمات", "title": "خدمات تكنولوجية لعمليات آمنة ومربوطة وذكية.", "description": "Shamash IT تجمع Enterprise software، AI Automation، Cloud، Cybersecurity وsupport managé باش المبادرات تمشي من الاستراتيجية للعمليات المستقرة.", "panelEyebrow": "Delivery model", "panelTitle": "منظومة خدمات مربوطة من الاستراتيجية للعمليات المستقرة.", "metricLabel": "ركائز خدمات متناسقة حول delivery آمن للمؤسسات", "chips": ["Software", "AI", "Cloud", "Support"]},
+  "section": {"eyebrow": "خدمات استراتيجية", "title": "Engineering وautomation وinfrastructure وsupport عند شريك واحد.", "description": "Shamash IT تربط منصّات الـproduct بخبرة implementation عميقة باش توفّر software، infrastructure، security وsupport للتغيير على المدى الطويل.", "coreEyebrow": "الرسالة الأساسية", "coreMessage": "أنظمة رقمية آمنة، مربوطة وذكية للعمليات الحساسة."},
+  "catalog": {"eyebrow": "Catalogue مفصّل", "title": "خدمات مختصّة تساند delivery الـproduct والعمليات على المدى الطويل.", "description": "الخبرات هاذي تتقدّم ضمن implementation منصّة، برنامج modernisation ولا support managé.", "itemDescription": "خبرة عملية تراعي architecture، security، integration وسهولة الصيانة."},
+  "items": {
+    "enterprise-software": {"title": "Enterprise Software Engineering", "result": "منصّات sur mesure تبدّل العمليات المعقّدة لأنظمة رقمية مضبوطة.", "description": "تصميم وبناء منصّات، APIs، integrations، portails، dashboards وأنظمة business داخلية.", "capabilities": ["منصّات business", "APIs", "Portails", "Dashboards", "Integration أنظمة"], "technologies": ["Next.js", "Laravel", ".NET", "PostgreSQL", "REST APIs"]},
+    "ai-automation": {"title": "AI Automation وDigital Transformation", "result": "Automation قابلة للقياس للوثائق وWorkflows والمصادقات والقرارات.", "description": "أتمت العمليات اليدوية، اربط الأنظمة، طبّق intelligent document processing وعاود صمّم Workflows.", "capabilities": ["Workflow automation", "AI integration", "Document processing", "RPA", "Analytics"], "technologies": ["OpenAI", "OCR", "Workflow engines", "BI", "API orchestration"]},
+    "cloud-security": {"title": "Cloud وInfrastructure وCybersecurity", "result": "Infrastructure آمنة للتطبيقات الحساسة واستمرارية الخدمة.", "description": "انشر وأمّن وراقب وصيّن infrastructure موثوقة لتطبيقات business الحساسة.", "capabilities": ["Cloud architecture", "إدارة servers", "Monitoring", "Backup", "Hardening"], "technologies": ["Docker", "Linux", "Cloud", "Firewalls", "Observability"]},
+    "managed-it": {"title": "IT Managé وSupport طويل المدى", "result": "شريك متواصل للـmaintenance وincident response وتطوير المنصّات.", "description": "Maintenance، supervision، incident response، support تقني وتطوير متواصل للمنصّة.", "capabilities": ["Outsourcing", "Maintenance", "Support", "Incident response", "Consulting"], "technologies": ["Helpdesk", "Monitoring", "Patch management", "SLA", "Reporting"]}
+  },
+  "supporting": ["Web Development", "Mobile Development", "UI/UX Design", "ERP Integration", "DevOps", "Consulting", "Maintenance", "Monitoring", "Cybersecurity", "Backup وContinuity"],
+  "process": {"eyebrow": "طريقة الـdelivery", "title": "طريق عملية من الحاجة التشغيلية لأنظمة مستقرة.", "description": "الخدمة تبدأ بفهم العمليات وبعد architecture، implementation، integration، monitoring وتحسين.", "steps": {
+    "discover": {"title": "نفهمو", "description": "نوضّحو أهداف الـbusiness والقيود والناس المعنية والمخاطر والقرارات اللي لازم تتحسّن."},
+    "design": {"title": "نصمّمو", "description": "نرسمو Workflows، data، security، integrations وتجربة المستخدم قبل ما نثبتو architecture والscope."},
+    "build": {"title": "نبنيو", "description": "نسلّمو software آمن وسهل الصيانة بمراجعات متدرجة وquality checks ومراحل واضحة."},
+    "integrate": {"title": "نربطو", "description": "نربطو المنصّة بالوثائق وERP والمحاسبة والبنوك والهوية وCloud وreporting حسب الحاجة."},
+    "support": {"title": "نساندو", "description": "نراقبو ونصيّنو ونحسّنو ونطوّرو المنصّة مع نمو العمليات والاحتياجات."}
+  }},
+  "technology": {"eyebrow": "الخبرات", "title": "أسس تكنولوجية مبنية على security وdata والعمليات.", "description": "الـimplementation تتبنى على security، integrations، data quality، infrastructure وsupport تشغيلي.", "items": {
+    "security": {"title": "Architecture آمنة", "description": "صلاحيات حسب الدور، audit trails، infrastructure محصّنة، backup، monitoring وdata flows مضبوطة."},
+    "integration": {"title": "Integration layer", "description": "APIs وorchestration patterns تربط ERP والمحاسبة والوثائق والهوية وreporting."},
+    "operations": {"title": "عمليات موثوقة", "description": "Deployment discipline، observability، incident handling، maintenance وsupport plan طويل المدى."},
+    "data": {"title": "Data تنجم تستعملها", "description": "Dashboards، analytics، records منظّمة وreporting يعاون المسؤولين ياخذو قرار أوضح."}
+  }},
+  "finalCta": "ابني service model اللي تحتاجو الـtransformation متاعك."
+}

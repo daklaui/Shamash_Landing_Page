@@ -1,0 +1,190 @@
+{
+  "hero": {
+    "eyebrow": "Gestion financière • Facturation • Automatisation",
+    "title": "Gérez votre entreprise.",
+    "titleAccent": "Factorix s’occupe du reste.",
+    "description": "Facturation électronique, paiements, dépenses, caisse, trésorerie et automatisations réunis dans une seule plateforme conçue pour les entreprises tunisiennes.",
+    "primaryCta": "Demander une démo",
+    "secondaryCta": "Découvrir Factorix",
+    "reassurance": "Pensé pour les entreprises tunisiennes • Simple • Sécurisé • Évolutif"
+  },
+  "dashboard": {
+    "title": "Pilotage financier",
+    "period": "Vue consolidée • Août 2026",
+    "live": "À jour",
+    "metrics": { "balance": "Solde disponible", "collected": "À encaisser • 30 jours", "expenses": "À décaisser • 30 jours" },
+    "cashflow": "Prévision de trésorerie",
+    "cashflowHint": "Encaissements et décaissements attendus",
+    "actions": "Factorix travaille",
+    "events": { "matched": "Paiement rapproché", "validated": "e-Facture validée", "reminder": "Relance programmée" },
+    "floatStatus": "Facture FAC-2026-0184 payée"
+  },
+  "subnav": {
+    "label": "Navigation Factorix",
+    "items": { "overview": "Vue d’ensemble", "invoicing": "Facturation", "einvoice": "e-Facture", "payments": "Paiements", "cash": "Caisse", "automation": "Automatisation", "treasury": "Trésorerie" },
+    "demo": "Demander une démo"
+  },
+  "problem": {
+    "eyebrow": "Un seul environnement",
+    "title": "Votre gestion financière ne devrait pas dépendre de 10 fichiers Excel.",
+    "description": "Quand factures, paiements et justificatifs vivent dans des outils séparés, le suivi devient un travail à part entière.",
+    "items": ["Factures préparées à la main", "Paiements difficiles à suivre", "Relances clients oubliées", "Dépenses dispersées", "Caisse suivie dans Excel", "Documents perdus dans les e-mails", "Rapprochement bancaire manuel", "Trésorerie difficile à prévoir", "e-Facture compliquée", "Données réparties entre plusieurs outils"],
+    "bridgeEyebrow": "Le changement Factorix",
+    "bridge": "Factorix transforme ces opérations dispersées en un workflow financier connecté."
+  },
+  "flow": {
+    "eyebrow": "Le fil financier",
+    "title": "De la facture au paiement. Sans perdre le fil.",
+    "description": "Chaque étape alimente la suivante. Votre équipe avance, votre trésorerie reste lisible.",
+    "steps": [
+      { "title": "Devis", "description": "Préparez et faites valider l’offre." },
+      { "title": "Facture", "description": "Émettez depuis les mêmes données." },
+      { "title": "e-Facture TTN", "description": "Déclenchez le processus configuré." },
+      { "title": "Paiement", "description": "Enregistrez chaque encaissement." },
+      { "title": "Rapprochement", "description": "Reliez le mouvement à la facture." },
+      { "title": "Trésorerie", "description": "Mettez à jour la vision dirigeant." }
+    ]
+  },
+  "overview": {
+    "eyebrow": "Vue produit",
+    "title": "Ouvrez Factorix. Comprenez votre entreprise.",
+    "description": "Passez de l’opération au pilotage sans reconstituer les chiffres. Les vues restent simples, les décisions deviennent plus rapides.",
+    "tabLabel": "Explorer les modules Factorix",
+    "tabs": {
+      "invoicing": { "label": "Facturation", "title": "Tout ce qui est facturé, encaissé et en retard", "description": "Créez devis, factures, avoirs et échéances dans un flux cohérent.", "bullets": ["Devis transformé en facture", "Factures récurrentes et acomptes", "PDF, e-mail, statuts et historique"], "metrics": [{ "label": "Chiffre d’affaires", "value": "124 500 TND" }, { "label": "Encaissé", "value": "98 420 TND" }, { "label": "À encaisser", "value": "26 080 TND" }] },
+      "payments": { "label": "Paiements", "title": "Chaque paiement retrouve sa facture", "description": "Suivez paiements complets, partiels, avances et plusieurs échéances sans perdre la référence bancaire.", "bullets": ["Virement, chèque, espèces ou carte", "Justificatifs et historique", "Une transaction peut couvrir plusieurs factures"], "metrics": [{ "label": "Paiements du mois", "value": "98 420 TND" }, { "label": "Rapprochés", "value": "91%" }, { "label": "À vérifier", "value": "7 opérations" }] },
+      "cash": { "label": "Caisse", "title": "Chaque dinar garde son motif et son justificatif", "description": "Centralisez entrées, sorties, avances et remboursements avec validation et solde en temps réel.", "bullets": ["Responsable, bénéficiaire et catégorie", "Photo ou document attaché", "Circuit d’approbation configurable"], "metrics": [{ "label": "Solde caisse", "value": "2 840,500 TND" }, { "label": "Sorties du jour", "value": "237 TND" }, { "label": "À approuver", "value": "3 demandes" }] },
+      "treasury": { "label": "Trésorerie", "title": "Voyez venir les mouvements avant qu’ils arrivent", "description": "Croisez encaissements, dépenses, échéances et opérations de caisse dans une prévision lisible.", "bullets": ["Position actuelle et à 30 jours", "Retards clients visibles", "Dépenses récurrentes intégrées"], "metrics": [{ "label": "Prévision à 30 jours", "value": "60 020 TND" }, { "label": "À encaisser", "value": "+32 500 TND" }, { "label": "À décaisser", "value": "−18 300 TND" }] }
+    }
+  },
+  "invoicing": {
+    "eyebrow": "Facturation connectée",
+    "title": "Toute votre facturation. Au même endroit.",
+    "description": "Du brouillon au paiement, chaque facture garde son client, ses échéances, ses documents et son historique.",
+    "features": ["Devis → facture", "Avoirs", "Acomptes", "Paiements partiels", "Échéances", "Taxes et timbre fiscal", "Catalogue produits/services", "Numérotation automatique", "Aperçu PDF", "Pièces jointes", "Envoi par e-mail", "Historique client"],
+    "recurringEyebrow": "Facturation récurrente",
+    "recurringTitle": "Les factures répétitives n’ont plus besoin d’être répétées.",
+    "recurringExample": "Contrat de maintenance — 1 200 TND / mois",
+    "months": ["Janvier ✓", "Février ✓", "Mars ✓", "Avril → auto"],
+    "preview": {
+      "invoice": "Facture",
+      "status": "Partiellement payée",
+      "customer": "Client",
+      "due": "Échéance",
+      "service": "Produit / service",
+      "amount": "Montant",
+      "lines": [{ "name": "Maintenance applicative", "value": "3 200 TND" }, { "name": "Support prioritaire", "value": "1 560 TND" }],
+      "send": "Envoyer",
+      "total": "Total TTC"
+    }
+  },
+  "einvoice": {
+    "eyebrow": "Tunisie • Processus électronique",
+    "title": "La facturation électronique tunisienne, directement dans Factorix.",
+    "description": "Préparez, transmettez et suivez vos e-Factures sans sortir de votre gestion quotidienne.",
+    "steps": ["Facture Factorix", "Contrôles", "Signature électronique", "Transmission TTN / El Fatoora", "Suivi du statut", "Archivage"],
+    "disclaimer": "Conçu pour intégrer le processus tunisien de facturation électronique, avec suivi, historique et reprise des transmissions selon la configuration mise en œuvre."
+  },
+  "reconciliation": {
+    "eyebrow": "Rapprochement bancaire",
+    "title": "Importez votre relevé. Factorix retrouve les paiements.",
+    "description": "Transformez votre relevé bancaire en paiements rapprochés plutôt qu’en heures de vérification.",
+    "features": ["Suggestions automatiques", "Validation manuelle", "Rapprochement fractionné", "Références bancaires", "Historique complet", "Transactions non rapprochées"],
+    "transaction": "Transaction importée",
+    "analysis": "Factorix analyse",
+    "confidence": "de correspondance",
+    "action": "Rapprocher",
+    "result": ["Paiement créé", "Facture payée", "Trésorerie mise à jour", "Historique client enrichi"]
+  },
+  "payments": { "eyebrow": "Paiements", "title": "Un encaissement, plusieurs possibilités.", "description": "Enregistrez paiements complets ou partiels, avances, multi-échéances et justificatifs avec une référence fiable.", "methods": ["Virement", "Chèque", "Espèces", "Carte", "Autre"] },
+  "currency": { "eyebrow": "Multi-devises", "title": "La facture et le paiement peuvent parler deux devises.", "invoice": "Facture émise", "received": "Paiement reçu", "note": "Factorix conserve devise, taux appliqué, valeur convertie et solde restant selon la configuration." },
+  "cash": {
+    "eyebrow": "Gestion de caisse",
+    "title": "Votre caisse, enfin aussi claire que votre compte bancaire.",
+    "description": "Chaque entrée et chaque sortie garde son responsable, son motif, son centre de coût et son justificatif.",
+    "balance": "Solde actuel",
+    "updated": "Mis à jour à l’instant",
+    "today": "Aujourd’hui",
+    "transactions": [{ "label": "Alimentation caisse", "value": "+ 500 TND", "positive": true }, { "label": "Carburant", "value": "− 85 TND" }, { "label": "Fournitures", "value": "− 32 TND" }, { "label": "Déplacement", "value": "− 120 TND" }],
+    "workflowEyebrow": "Circuit d’approbation",
+    "workflowTitle": "Une demande validée devient une opération traçable.",
+    "approvalSteps": ["Justificatif transmis", "Demande de remboursement", "Validation manager", "Contrôle finance", "Paiement", "Archivage"],
+    "workflowResult": "La caisse se met à jour et le justificatif reste attaché à l’opération."
+  },
+  "expenses": {
+    "eyebrow": "Dépenses et fournisseurs",
+    "title": "Vos dépenses méritent autant de visibilité que vos revenus.",
+    "description": "Catégorisez dépenses, fournisseurs, projets, TVA, échéances et pièces justificatives. Suivez ce qui est payé et ce qui reste à décaisser.",
+    "cards": [{ "label": "Fournisseur", "value": "AWS Hosting" }, { "label": "Catégorie", "value": "Infrastructure" }, { "label": "Montant", "value": "142 TND • Payée" }],
+    "receiptEyebrow": "Justificatif",
+    "receiptTitle": "Une photo. La dépense est presque terminée.",
+    "receiptDescription": "Réduisez la saisie manuelle et standardisez les justificatifs grâce au circuit de dépôt et d’approbation configuré."
+  },
+  "treasury": {
+    "eyebrow": "Trésorerie et direction",
+    "title": "Sachez où va votre argent avant qu’il ne parte.",
+    "description": "Regroupez encaissements attendus, dépenses fournisseurs, charges récurrentes, retards et caisse dans une vision utile à la décision.",
+    "digestEyebrow": "Synthèse dirigeant",
+    "digestTitle": "Bonjour. Voici les actions prioritaires.",
+    "digestDescription": "3 factures en retard • 2 paiements non rapprochés • Prévision 30 jours : +21 340 TND",
+    "dashboardEyebrow": "Projection de trésorerie",
+    "dashboardTitle": "Position consolidée",
+    "days": "jours",
+    "stats": [{ "label": "Solde actuel", "value": "45 820 TND", "tone": "neutral" }, { "label": "À encaisser", "value": "+32 500 TND", "tone": "positive" }, { "label": "À décaisser", "value": "−18 300 TND", "tone": "negative" }],
+    "chart": "Solde projeté"
+  },
+  "automation": {
+    "eyebrow": "Automatisation financière",
+    "title": "Factorix ne se contente pas d’enregistrer. Il travaille avec vous.",
+    "description": "Automatisez les tâches financières répétitives et gardez votre équipe concentrée sur les décisions qui comptent.",
+    "tabLabel": "Explorer les automatisations Factorix",
+    "items": {
+      "matching": { "label": "Rapprochement automatique", "title": "Un paiement arrive. Factorix retrouve la facture.", "description": "Factorix croise le client, le montant, la référence et les factures ouvertes avant de proposer une correspondance.", "trigger": "+ 4 760 TND — Société ABC", "steps": ["Transaction reçue", "Client identifié", "Montant et référence comparés", "Facture FAC-2026-0048 trouvée", "Validation utilisateur", "Trésorerie actualisée"], "result": "Le paiement est créé et la facture passe au statut payé." },
+      "reminders": { "label": "Relances d’impayés", "title": "Plus besoin de surveiller chaque échéance.", "description": "Les relances suivent le scénario défini et s’arrêtent dès qu’un paiement est détecté.", "trigger": "Échéance : 15/08/2026", "steps": ["J+1 • rappel courtois", "J+7 • seconde relance", "J+15 • alerte finance", "Paiement détecté", "Workflow arrêté", "Facture marquée payée"], "result": "Votre équipe intervient sur les exceptions, pas sur chaque calendrier." },
+      "expense": { "label": "Dépense sur justificatif", "title": "Une photo. Un circuit propre jusqu’à la dépense.", "description": "Le collaborateur transmet le justificatif, complète les informations et suit la validation.", "trigger": "Receipt.jpg déposé", "steps": ["Justificatif ajouté", "Données complétées", "Catégorie choisie", "Manager valide", "Dépense créée", "Document archivé"], "result": "La saisie est standardisée et le justificatif reste lié à l’opération." },
+      "recurring": { "label": "Facturation récurrente", "title": "Votre contrat travaille tous les mois.", "description": "La facture peut être préparée, revue, émise et suivie selon les règles définies.", "trigger": "Maintenance IT • 1 500 TND / mois", "steps": ["Facture générée", "Contrôle selon configuration", "Processus électronique déclenché", "Client notifié", "Échéance suivie", "Paiement rapproché"], "result": "Le cycle reste régulier sans ressaisie du contrat." },
+      "advance": { "label": "Avance de caisse", "title": "De la demande d’avance au justificatif final.", "description": "Un circuit simple pour demander, approuver, décaisser puis régulariser une avance.", "trigger": "Demande : 300 TND", "steps": ["Demande employé", "Validation manager", "Validation finance", "Décaissement", "Justificatif ajouté", "Reliquat restitué"], "result": "L’avance et sa régularisation restent visibles dans le même historique." },
+      "digest": { "label": "Synthèse du dirigeant", "title": "Commencez la journée avec les bonnes priorités.", "description": "Factorix fait remonter dans l’application les mouvements, retards et exceptions qui demandent votre attention.", "trigger": "Bonjour • Synthèse du matin", "steps": ["8 200 TND encaissés", "2 350 TND décaissés", "3 factures en retard", "2 paiements à rapprocher", "Caisse : 2 840 TND", "Prévision : +21 340 TND"], "result": "Le dirigeant voit les actions prioritaires dès l’ouverture du tableau de bord." }
+    }
+  },
+  "operations": {
+    "eyebrow": "Tout reste lié",
+    "title": "Une vue complète, sans transformer Factorix en usine à écrans.",
+    "description": "Clients, devis, fournisseurs, documents et rapports restent attachés aux opérations financières qui leur donnent du sens.",
+    "items": [
+      { "id": "clients", "title": "Client 360°", "description": "Coordonnées, matricule fiscal, factures, paiements, solde et retard dans une seule fiche." },
+      { "id": "quotes", "title": "Devis en un clic", "description": "Créez, envoyez, faites accepter puis transformez un devis en facture." },
+      { "id": "suppliers", "title": "Fournisseurs", "description": "Dépenses, commandes, paiements, documents et montants ouverts par fournisseur." },
+      { "id": "catalog", "title": "Produits et services", "description": "Référence, prix, taxe, unité, catégorie et description prêts à facturer." },
+      { "id": "documents", "title": "Documents contextuels", "description": "PDF, reçus, contrats et preuves bancaires restent liés à l’opération." },
+      { "id": "reports", "title": "Rapports dirigeant", "description": "Revenus, impayés, dépenses, caisse, clients et exposition devises." },
+      { "id": "search", "title": "Recherche globale", "description": "Cherchez ABC et retrouvez client, factures, paiements, devis et documents." },
+      { "id": "notifications", "title": "Alertes utiles", "description": "Échéance, paiement, rejet électronique, approbation ou transaction à rapprocher." }
+    ]
+  },
+  "trust": {
+    "eyebrow": "Contrôle et traçabilité",
+    "title": "Vos données financières méritent une vraie protection.",
+    "items": [
+      { "title": "Accès par rôle", "description": "Direction, finance, comptabilité et employés voient uniquement ce qui leur est utile." },
+      { "title": "Actions attribuées", "description": "Chaque validation et modification garde son auteur et son moment." },
+      { "title": "Historique documentaire", "description": "Les pièces et événements restent attachés à la bonne opération." }
+    ],
+    "auditEyebrow": "Piste d’audit",
+    "audit": ["10:21 — créée par Sara", "10:32 — validée par Finance", "10:34 — envoyée", "14:12 — paiement détecté", "14:14 — rapprochée"]
+  },
+  "tunisia": {
+    "eyebrow": "Tunisia-first",
+    "title": "Conçu autour de la réalité des entreprises tunisiennes.",
+    "description": "Les modules et intégrations sont présentés selon leur configuration et le périmètre réellement mis en œuvre.",
+    "chips": ["TND", "Facturation électronique", "TTN / El Fatoora", "Timbre fiscal", "Retenue à la source", "TEJ", "Caisse", "Multi-devises", "Rapprochement bancaire"]
+  },
+  "cta": {
+    "eyebrow": "Voir Factorix en action",
+    "title": "Votre gestion financière peut être beaucoup plus simple.",
+    "description": "Découvrez comment Factorix peut connecter vos factures, vos paiements, votre caisse et votre trésorerie dans un seul environnement.",
+    "primary": "Demander une démo",
+    "secondary": "Parler à un expert",
+    "reassurance": "Une démonstration adaptée aux processus de votre entreprise."
+  }
+}

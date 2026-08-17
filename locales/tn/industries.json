@@ -1,0 +1,14 @@
+{
+  "metadata": {"title": "القطاعات اللي تخدمها Shamash IT", "description": "Shamash IT تخدم المؤسسات المالية، PME، عمليات الشركات، الفرق الإدارية وcompliance والإدارة وفرق الـproduct في تونس وأفريقيا وأوروبا."},
+  "hero": {"eyebrow": "القطاعات", "title": "تكنولوجيا Enterprise للفرق اللي عندها مسؤوليات تشغيلية معقّدة.", "description": "Shamash IT تعاون المؤسسات اللي تحتاج تحكّم خير في التمويل والوثائق وتسيير الأعمال وWorkflows وinfrastructure وreporting والمنتجات الرقمية.", "panelEyebrow": "ملاءمة القطاع", "panelTitle": "مصمّم للمؤسسات اللي يهمّها التحكم في Workflows وreporting والموثوقية.", "metricLabel": "مجموعات قطاعية تغطيها حلول Shamash IT", "chips": ["Finance", "Operations", "Compliance"]},
+  "section": {"eyebrow": "خبرة في القطاعات", "title": "قطاعات وين الأنظمة التشغيلية الآمنة تفرق.", "description": "Shamash IT تخدم وين الـsoftware لازم يساند تحكم business حقيقي: تمويل، وثائق، عمليات، infrastructure، reporting وموثوقية على المدى الطويل."},
+  "needs": {"eyebrow": "احتياجات مشتركة", "title": "قطاعات مختلفة ونفس الحاجة لوضوح تشغيلي آمن."},
+  "items": {
+    "banking": {"name": "البنوك والخدمات المالية", "description": "Factoring، مخاطر ائتمان، Workflows آمنة، integrations، reporting compliance وعمليات بمستوى المؤسسات.", "needs": ["منصّات factoring", "رؤية المخاطر", "Reporting آمن"]},
+    "sme": {"name": "PME والشركات اللي تكبر", "description": "تسيير الشركة، factures، achats، stock، paiements، cash flow وdashboards للإدارة.", "needs": ["ERP", "Cash flow", "Stock"]},
+    "enterprise": {"name": "عمليات المؤسسات", "description": "إعادة تصميم Workflows، integration الأنظمة، منصّات داخلية، Cloud وsupport تقني managé.", "needs": ["Automation", "Integrations", "Support"]},
+    "administration": {"name": "فرق الإدارة والقانون والـcompliance", "description": "رقمنة الوثائق، OCR، Workflows مصادقة، signatures، تحكم في السجلات، traceability وarchive آمنة.", "needs": ["OCR", "مصادقات", "Archive"]},
+    "technology": {"name": "فرق التكنولوجيا والـproduct", "description": "منتجات Web وMobile sur mesure، APIs، SaaS، architecture، DevOps، monitoring وتطوير product.", "needs": ["Apps", "APIs", "DevOps"]},
+    "executives": {"name": "الإدارة والمديرين الماليين", "description": "رؤية تشغيلية، reporting واضح، قرارات أسرع، data flows آمنة وtransformation قابلة للقياس.", "needs": ["Visibility", "Reporting", "Control"]}
+  }, "finalCta": "لقى مسار Shamash IT اللي يناسب قطاعك."
+}

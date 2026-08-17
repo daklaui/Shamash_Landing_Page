@@ -1,0 +1,15 @@
+{
+  "metadata": {"title": "Industries Served by Shamash IT", "description": "Shamash IT serves financial institutions, SMEs, enterprise operations, administrative teams, compliance teams, executives and product teams across Tunisia, Africa and Europe."},
+  "hero": {"eyebrow": "Industries", "title": "Enterprise technology for teams with complex operational responsibilities.", "description": "Shamash IT supports organizations that need better control over financing, documents, business management, workflows, infrastructure, reporting, and digital products.", "panelEyebrow": "Industry fit", "panelTitle": "Built for organizations where workflow control, reporting, and reliability matter.", "metricLabel": "industry groups represented across Shamash IT solutions", "chips": ["Finance", "Operations", "Compliance"]},
+  "section": {"eyebrow": "Industry credibility", "title": "Industry contexts where secure operational systems matter.", "description": "Shamash IT works where software must support real business controls: financing, documents, operations, infrastructure, reporting, and long-term reliability."},
+  "needs": {"eyebrow": "Common needs", "title": "Different industries, the same need for secure operational clarity."},
+  "items": {
+    "banking": {"name": "Banking and Financial Services", "description": "Factoring, credit risk, secure workflows, integrations, compliance reporting, and institution-grade operations.", "needs": ["Factoring platforms", "Risk visibility", "Secure reporting"]},
+    "sme": {"name": "SMEs and Growing Companies", "description": "Business management, invoices, purchasing, inventory, payments, cash-flow control, and executive dashboards.", "needs": ["ERP", "Cash flow", "Inventory"]},
+    "enterprise": {"name": "Enterprise Operations", "description": "Workflow redesign, system integration, internal platforms, cloud infrastructure, and managed technical support.", "needs": ["Automation", "Integrations", "Support"]},
+    "administration": {"name": "Administrative, Legal, and Compliance Teams", "description": "Document digitization, OCR, approval workflows, signatures, records control, traceability, and secure archive.", "needs": ["OCR", "Approvals", "Archive"]},
+    "technology": {"name": "Technology and Product Teams", "description": "Custom web and mobile products, APIs, SaaS platforms, architecture, DevOps, monitoring, and product evolution.", "needs": ["Apps", "APIs", "DevOps"]},
+    "executives": {"name": "Executives and Finance Directors", "description": "Operational visibility, consistent reporting, faster decisions, secure data flows, and measurable transformation.", "needs": ["Visibility", "Reporting", "Control"]}
+  },
+  "finalCta": "Find the Shamash IT route for your industry."
+}

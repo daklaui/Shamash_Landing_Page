@@ -1,0 +1,7 @@
+{
+  "metadata": {"title": "Resources for Enterprise Software and Digital Transformation", "description": "Explore Shamash IT resources for factoring software, ERP, document management, AI automation, cloud infrastructure and enterprise application development."},
+  "hero": {"eyebrow": "Resources", "title": "Practical starting points for choosing the right technology path.", "description": "Use these solution briefs and questions to frame your next conversation about software, automation, documents, infrastructure, or digital products.", "panelEyebrow": "Decision routes", "panelTitle": "Compare solution briefs by workflow, audience, and operational outcome.", "metricLabel": "core Shamash IT routes for enterprise technology decisions", "chips": ["Briefs", "FAQ", "Fit"]},
+  "briefTitle": "{name} brief",
+  "faq": {"eyebrow": "FAQ", "title": "Common questions before a consultation."},
+  "finalCta": "Use the resources, then bring your specific workflow."
+}

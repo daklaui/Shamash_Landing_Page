@@ -1,0 +1,38 @@
+{
+  "brand": {"logoAlt": "Shamash IT — technologies de l’information"},
+  "metadata": {
+    "siteTitle": "Shamash IT | Logiciels d’entreprise, plateformes FinTech et automatisation IA",
+    "siteDescription": "Shamash IT conçoit des logiciels d’entreprise sécurisés, des plateformes d’affacturage, des ERP, des solutions de gestion documentaire, d’automatisation IA, d’infrastructure cloud et de services IT managés pour les organisations en Tunisie, en Afrique et en Europe.",
+    "organizationDescription": "Logiciels d’entreprise, plateformes FinTech, automatisation IA, infrastructure cloud, cybersécurité et services IT managés."
+  },
+  "navigation": {
+    "primaryLabel": "Navigation principale", "mobileLabel": "Navigation mobile", "dialogLabel": "Navigation du site", "closeMenu": "Fermer le menu", "closeBackdrop": "Fermer l’arrière-plan du menu", "openMenu": "Ouvrir le menu",
+    "solutions": "Nos solutions", "services": "Nos services", "automationWorkflows": "Workflows d’automatisation", "industries": "Secteurs", "resources": "Ressources", "company": "Entreprise", "about": "À propos de Shamash IT", "contact": "Contact",
+    "strategicCapability": "Expertise stratégique", "consultation": "Consultation",
+    "aboutDescription": "Expertise en logiciels d’entreprise, FinTech, automatisation IA, cloud et technologies managées.",
+    "contactDescription": "Réservez une démo, demandez une consultation ou échangez sur un projet de transformation.",
+    "viewAll": "Voir toutes les rubriques {section}"
+  },
+  "actions": {"bookDemo": "Réserver une démo", "requestConsultation": "Demander une consultation", "viewServices": "Voir les services", "viewSupportingServices": "Voir les services associés", "learnMore": "En savoir plus", "contactUs": "Nous contacter"},
+  "language": {"selectorLabel": "Choisir la langue", "currentLabel": "Langue actuelle : {language}", "switchTo": "Passer en {language}"},
+  "footer": {"description": "Shamash IT transforme des opérations métier complexes en systèmes numériques sécurisés, connectés et intelligents pour les organisations en Tunisie, en Afrique et en Europe.", "solutions": "Nos solutions", "services": "Nos services", "company": "Entreprise"},
+  "contactInfo": {"location": "Tunisie, au service de l’Afrique et de l’Europe", "email": "contact@shamash-it.com", "availability": "Démo et consultation sur demande"},
+  "faq": {"items": {
+    "scope": {"question": "Shamash IT crée-t-elle uniquement des sites web ?", "answer": "Non. Shamash IT se concentre sur les logiciels d’entreprise, les plateformes FinTech, les ERP, la gestion documentaire, l’automatisation IA, l’infrastructure cloud, la cybersécurité et le support managé. Le développement web et mobile fait partie d’une expertise d’entreprise plus large."},
+    "integration": {"question": "Shamash IT peut-elle travailler avec des systèmes existants ?", "answer": "Oui. L’intégration est au cœur de notre modèle de réalisation. Les solutions peuvent se connecter aux ERP et aux systèmes comptables, documentaires, d’identité, bancaires, de reporting et cloud au moyen d’API sécurisées et de workflows maîtrisés."},
+    "financialInstitution": {"question": "Quelle solution convient le mieux à une institution financière ?", "answer": "Les banques, sociétés d’affacturage et institutions financières peuvent commencer par Xpert Factor, la plateforme dédiée à l’affacturage, aux circuits de financement, au risque de crédit, au recouvrement, à la comptabilité et au reporting."},
+    "support": {"question": "L’équipe peut-elle accompagner une plateforme après son lancement ?", "answer": "Oui. Shamash IT propose des services IT managés, la maintenance, la supervision, la réponse aux incidents, le support technique et l’évolution à long terme des plateformes."}
+  }},
+  "finalCta": {"eyebrow": "Prochaine étape", "title": "Prêt à choisir la solution Shamash IT adaptée ?", "description": "Commençons par un échange ciblé sur votre organisation, vos workflows, vos systèmes et les résultats métier attendus de la technologie."},
+  "visuals": {
+    "liveWorkspace": "Espace de travail {code} en direct", "secureWorkspace": "Espace de travail sécurisé et connecté", "live": "En direct", "keyResult": "Résultat clé", "integratedSystems": "Systèmes intégrés", "verified": "Vérifié",
+    "types": {
+      "factoring-dashboard": {"title": "Portefeuille d’affacturage", "leftTitle": "Exposition du portefeuille", "rightTitle": "Circuit de financement", "metricLabel": "Exposition saine", "line": "Portefeuille avec risque maîtrisé", "rows": ["Débiteur vérifié", "Limite contrôlée", "Financement validé"], "chips": ["Core banking", "KYC", "Comptabilité"]},
+      "erp-dashboard": {"title": "Opérations métier", "leftTitle": "Pilotage de trésorerie", "rightTitle": "Flux opérationnel", "metricLabel": "Trésorerie suivie", "line": "Valeur ouverte suivie", "rows": ["Devis accepté", "Facture émise", "Paiement rapproché"], "chips": ["Stock", "CRM", "Comptabilité"]},
+      "document-workflow": {"title": "Workflow documentaire", "leftTitle": "Archive sécurisée", "rightTitle": "Circuit d’approbation", "metricLabel": "Délai moyen de recherche", "line": "Temps moyen de recherche", "rows": ["OCR extrait", "Approbateur notifié", "Dossier archivé"], "chips": ["Scanner", "Signature", "Conservation"]},
+      "automation-orchestration": {"title": "File d’automatisation", "leftTitle": "File d’automatisation", "rightTitle": "Orchestration des systèmes", "metricLabel": "Moins de traitement manuel", "line": "Traitement manuel réduit", "rows": ["Document analysé", "ERP mis à jour", "Exception orientée"], "chips": ["IA", "API", "Analytique"]},
+      "web-mobile-architecture": {"title": "Livraison applicative", "leftTitle": "Livraison produit", "rightTitle": "Mise en production cloud", "metricLabel": "Services supervisés", "line": "Services supervisés", "rows": ["API testée", "Mobile synchronisé", "Version supervisée"], "chips": ["Web", "Mobile", "DevOps"]}
+    }
+  },
+  "notFound": {"eyebrow": "Page introuvable", "title": "Cette page n’est pas disponible.", "description": "L’adresse a peut-être changé ou la page n’existe plus.", "homeAction": "Retour à l’accueil"}
+}

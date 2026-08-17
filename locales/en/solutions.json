@@ -1,0 +1,102 @@
+{
+  "page": {
+    "outcomesEyebrow": "Business outcomes",
+    "outcomesTitle": "What {name} helps your team improve",
+    "outcomesDescription": "The goal is practical operational improvement: less manual work, better control, stronger reporting, and systems that teams can rely on.",
+    "capabilitiesEyebrow": "Capabilities",
+    "capabilitiesTitle": "Feature groups shaped around real business workflows.",
+    "capabilitiesDescription": "Each module connects user actions, approvals, data, reporting, and integrations so the system supports daily operations.",
+    "workflowEyebrow": "Workflow",
+    "workflowTitle": "A clear operating path from intake to reporting.",
+    "reliabilityEyebrow": "Integrations and reliability",
+    "reliabilityTitle": "Designed to work with the systems your organization already depends on.",
+    "reliabilityDescription": "Shamash IT plans identity, access control, audit trails, backups, monitoring, and integration points as part of the delivery model.",
+    "faqEyebrow": "FAQ",
+    "faqTitle": "Questions about {name}",
+    "faqDescription": "A quick starting point for teams evaluating fit, implementation scope, integrations, and long-term support.",
+    "ctaTitle": "Discuss whether {name} fits your organization.",
+    "ctaDescription": "Share your workflows, current systems, reporting needs, and transformation goals. Shamash IT will help shape the right technical path."
+  },
+  "items": {
+    "xpertfactor": {
+      "name": "Xpert Factor",
+      "audience": "Banks, factoring companies, and financial institutions",
+      "headline": "A secure digital factoring platform for institution-grade operations.",
+      "summary": "Xpert Factor centralizes financing requests, debtor analysis, credit risk, collections, accounting, and reporting so financial teams can operate with control and traceability.",
+      "outcomes": ["Faster factoring operations", "Better risk visibility", "Controlled financing workflows", "Integrated financial reporting", "More secure institution-grade processes"],
+      "features": {
+        "risk": {"title": "Credit and risk control", "description": "Track debtor exposure, portfolio health, risk statuses, and approval thresholds from a single workspace."},
+        "financing": {"title": "Financing workflow", "description": "Coordinate requests, validations, disbursements, collections, and accounting entries with clear ownership."},
+        "reporting": {"title": "Banking-ready reporting", "description": "Generate management, accounting, portfolio, and compliance reports for executive and operational teams."}
+      },
+      "workflow": ["Client onboarding", "Invoice validation", "Risk approval", "Financing", "Collections", "Reporting"],
+      "integrations": ["Core banking", "Accounting systems", "KYC records", "Notification services", "Data warehouses"],
+      "ctaLabel": "Explore Xpert Factor",
+      "metadata": {"title": "Xpert Factor Factoring Platform", "description": "Secure factoring software for financial institutions, covering financing workflows, credit risk, collections, accounting and reporting."}
+    },
+    "factorix": {
+      "name": "Factorix",
+      "audience": "SMEs, growing companies, finance teams, and business owners",
+      "headline": "A complete business management platform for connected operations.",
+      "summary": "Factorix gives business teams a unified place to manage invoices, quotations, purchase orders, payments, clients, inventory, accounting, cash flow, and reporting.",
+      "outcomes": ["Centralized operations", "Better cash-flow visibility", "Reduced manual work", "Faster billing and payment tracking", "Clearer business reporting"],
+      "features": {
+        "commercial": {"title": "Commercial operations", "description": "Create quotations, invoices, purchase orders, client records, and stock movements without disconnected spreadsheets."},
+        "cashFlow": {"title": "Cash-flow clarity", "description": "Monitor payment status, overdue balances, expected inflows, and supplier commitments in real time."},
+        "dashboards": {"title": "Business dashboards", "description": "Give managers clean reporting across sales, purchasing, inventory, customers, and finance."}
+      },
+      "workflow": ["Quote", "Order", "Invoice", "Payment", "Inventory update", "Cash-flow report"],
+      "integrations": ["Accounting", "Payment gateways", "Inventory devices", "CRM", "ERP exports"],
+      "ctaLabel": "Explore Factorix",
+      "metadata": {"title": "Factorix — E-invoicing, cash & financial operations in Tunisia", "description": "Centralize invoicing, e-Invoices, payments, cash, expenses, bank reconciliation and treasury with Factorix."}
+    },
+    "document-management": {
+      "name": "XpertArchive",
+      "audience": "Finance, administrative, legal, compliance, and records teams",
+      "headline": "Digitize, classify, approve, sign, search, and archive documents securely.",
+      "summary": "XpertArchive turns paper and scattered digital files into controlled workflows with OCR, metadata, versioning, signatures, approvals, and secure archive policies.",
+      "outcomes": ["Faster access to documents", "Reduced paper dependency", "Better compliance and traceability", "Secure archiving", "Automated approval workflows"],
+      "features": {
+        "capture": {"title": "Intelligent capture", "description": "Use OCR and metadata extraction to transform files into searchable, classifiable records."},
+        "approval": {"title": "Approval and signature", "description": "Route documents through review, approval, signature, and archival steps with clear audit trails."},
+        "archive": {"title": "Secure archive", "description": "Protect sensitive records with role-based access, retention rules, version history, and traceability."}
+      },
+      "workflow": ["Capture", "OCR", "Classify", "Approve", "Sign", "Archive"],
+      "integrations": ["Scanners", "Email inboxes", "ERP records", "Signature providers", "Identity systems"],
+      "ctaLabel": "Explore XpertArchive",
+      "metadata": {"title": "XpertArchive Document Management", "description": "Secure document management with OCR, approval workflows, electronic signatures, search, versioning and archival controls."}
+    },
+    "ai-automation": {
+      "name": "AI Automation",
+      "audience": "Operations teams, executives, and organizations with repetitive processes",
+      "headline": "Practical AI automation that connects systems and reduces repetitive work.",
+      "summary": "Shamash IT designs workflows that use AI, rules, integrations, and analytics to process documents, synchronize systems, monitor exceptions, and improve decision speed.",
+      "outcomes": ["Reduced repetitive work", "Faster processing", "Better visibility", "More consistent operations", "Improved decision-making"],
+      "features": {
+        "workflow": {"title": "Workflow automation", "description": "Replace manual handoffs with measurable workflows, queues, approvals, and system-triggered actions."},
+        "processing": {"title": "AI-assisted processing", "description": "Use practical AI for extraction, classification, summarization, routing, and exception handling."},
+        "orchestration": {"title": "System orchestration", "description": "Connect fragmented applications and create reliable operational flows across teams."}
+      },
+      "workflow": ["Discover", "Map", "Automate", "Integrate", "Measure", "Improve"],
+      "integrations": ["ERP", "CRM", "Document systems", "Email", "APIs", "Analytics"],
+      "ctaLabel": "Explore AI Automation",
+      "metadata": {"title": "AI Automation and Workflow Orchestration", "description": "Practical AI automation for documents, approvals, integrations, exception handling and operational decision support."}
+    },
+    "web-mobile-development": {
+      "name": "Enterprise Web and Mobile",
+      "audience": "Organizations building custom platforms, portals, SaaS products, and mobile apps",
+      "headline": "Secure, scalable applications built with enterprise architecture principles.",
+      "summary": "Shamash IT designs and develops web applications, mobile apps, portals, SaaS products, APIs, and business platforms with secure data flows and long-term maintainability.",
+      "outcomes": ["Scalable application foundations", "Better user experiences", "Secure data flows", "Reliable integrations", "Long-term maintainability"],
+      "features": {
+        "architecture": {"title": "Product architecture", "description": "Shape platforms around business workflows, reliable data models, integration needs, and maintainable codebases."},
+        "delivery": {"title": "Web and mobile delivery", "description": "Build responsive web apps, mobile experiences, dashboards, portals, and SaaS products."},
+        "operations": {"title": "Operations-ready engineering", "description": "Include APIs, deployment pipelines, monitoring, security controls, and support from the start."}
+      },
+      "workflow": ["Discovery", "UX design", "Architecture", "Build", "Deploy", "Evolve"],
+      "integrations": ["APIs", "Identity", "Payment", "Cloud services", "Monitoring", "Business systems"],
+      "ctaLabel": "Start Your Project",
+      "metadata": {"title": "Enterprise Web and Mobile Development", "description": "Secure, scalable web applications, mobile apps, portals, SaaS products and APIs built for long-term operations."}
+    }
+  }
+}

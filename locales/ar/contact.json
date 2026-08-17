@@ -1,0 +1,5 @@
+{
+  "metadata": {"title": "اتصل بـ Shamash IT", "description": "احجز عرضاً تجريبياً أو اطلب استشارة حول برمجيات المؤسسات ومنصات FinTech وأتمتة الذكاء الاصطناعي وإدارة الوثائق وCloud وخدمات IT المُدارة."},
+  "hero": {"eyebrow": "اتصل بنا", "title": "احجز عرضاً تجريبياً أو اطلب استشارة مركزة.", "description": "أخبر Shamash IT بما تريد تحسينه: الفاكتورينغ، إدارة المؤسسة، الوثائق، الأتمتة، البنية التحتية، الدعم أو منصات الويب والهاتف المخصصة."},
+  "form": {"fullName": "الاسم الكامل", "workEmail": "البريد المهني", "organization": "المؤسسة", "role": "الدور", "mainInterest": "مجال الاهتمام الرئيسي", "selectArea": "اختر مجالاً", "messageLabel": "ما الذي تريد تحسينه؟", "messagePlaceholder": "صف بإيجاز Workflows أو الأنظمة الحالية أو أهداف المشروع.", "submit": "اطلب استشارة", "success": "شكراً. تم إعداد طلبك لفريق Shamash IT.", "required": "حقل مطلوب", "interests": {"xpertFactor": "Xpert Factor", "factorix": "Factorix", "xpertArchive": "XpertArchive", "aiAutomation": "أتمتة AI", "webMobile": "Web وMobile", "managedIt": "IT مُدار"}}
+}

@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "title": "Shamash IT | Enterprise Software, FinTech Platforms and AI Automation",
+    "description": "Shamash IT builds secure enterprise software, factoring platforms, ERP systems, document management solutions, AI automation, cloud infrastructure and managed IT services for organizations in Tunisia, Africa and Europe."
+  },
+  "hero": {
+    "regionLabel": "Shamash IT solutions",
+    "previous": "Previous solution",
+    "next": "Next solution",
+    "slideStatus": "Slide {current} of {total}: {title}",
+    "showSlide": "Show {title}",
+    "slides": {
+      "xpertfactor": {
+        "category": "Enterprise Financial Solutions", "title": "Xpert Factor", "headline": "Digital Factoring Platform for Banks and Financial Institutions", "description": "End-to-end factoring, financing, credit risk, collections, accounting, and reporting in one secure integrated platform.",
+        "primaryCta": "Explore Xpert Factor", "secondaryCta": "Watch Video",
+        "capabilities": ["Credit and Risk", "Financing Workflows", "Collections", "Accounting", "Reporting", "Banking Integrations"],
+        "imageAlt": "Xpert Factor enterprise factoring platform interface",
+        "metrics": [{"label": "Financing workflows", "value": "End-to-end"}, {"label": "Banking integrations", "value": "Secure"}]
+      },
+      "factorix": {
+        "category": "Business Management Solutions", "title": "Factorix", "headline": "Complete Business Management for Growing Companies", "description": "Manage invoices, quotations, purchase orders, payments, clients, inventory, accounting, cash flow, and reporting from one connected platform.",
+        "primaryCta": "Explore Factorix", "secondaryCta": "Watch Demo",
+        "capabilities": ["Invoices", "Payments", "Purchasing", "Inventory", "CRM", "Cash Flow", "Reporting"],
+        "imageAlt": "Factorix business management dashboard interface",
+        "metrics": [{"label": "Operations covered", "value": "7 modules"}, {"label": "Business view", "value": "Unified"}]
+      },
+      "document-management": {
+        "category": "Document Management Solutions", "title": "XpertArchive", "headline": "Digitize, Secure, Search, Approve, and Archive", "description": "Turn paper and scattered files into searchable, controlled, secure document workflows with OCR, approval flows, signatures, and archiving.",
+        "primaryCta": "Explore XpertArchive", "secondaryCta": "See How It Works",
+        "capabilities": ["OCR", "Secure Archive", "Workflow Approval", "Electronic Signature", "Versioning", "Search"],
+        "imageAlt": "Document management workflow and archive interface",
+        "metrics": [{"label": "Document flow", "value": "Searchable"}, {"label": "Approvals", "value": "Controlled"}]
+      },
+      "ai-automation": {
+        "category": "AI and Digital Transformation", "title": "AI Automation", "headline": "Automate Repetitive Operations and Connect Business Systems", "description": "Use practical AI and workflow automation to process documents, connect systems, reduce manual work, and improve operational decisions.",
+        "primaryCta": "Explore AI Automation", "secondaryCta": "See Use Cases",
+        "capabilities": ["Workflow Automation", "AI Integrations", "Intelligent Document Processing", "System Orchestration", "Analytics", "RPA"],
+        "imageAlt": "AI automation orchestration interface",
+        "metrics": [{"label": "Manual tasks", "value": "Reduced"}, {"label": "Systems linked", "value": "Connected"}]
+      },
+      "web-mobile-development": {
+        "category": "Enterprise Web and Mobile Development", "title": "Web and Mobile Solutions", "headline": "Secure, Scalable Applications Built With Enterprise Architecture", "description": "Design and develop web applications, mobile apps, portals, SaaS products, APIs, and business platforms with secure and maintainable architecture.",
+        "primaryCta": "Start Your Project", "secondaryCta": "See Our Process",
+        "capabilities": ["Web Apps", "Mobile Apps", "SaaS Platforms", "APIs", "Cloud-Native", "DevOps", "Monitoring"],
+        "imageAlt": "Enterprise web and mobile application architecture interface",
+        "metrics": [{"label": "Architecture", "value": "Scalable"}, {"label": "Delivery", "value": "Secure"}]
+      }
+    }
+  },
+  "references": {
+    "eyebrow": "References",
+    "title": "They trusted us",
+    "description": "A cross-industry reference base across banking, factoring, healthcare, energy, consulting, technology, training, commerce, and industrial operations.",
+    "carouselLabel": "Client references carousel",
+    "previous": "Previous reference",
+    "next": "Next reference",
+    "logoAlt": "{name} logo"
+  },
+  "why": {
+    "eyebrow": "Why Shamash",
+    "title": "Technology should simplify your operations, not create more complexity.",
+    "description": "We connect technology, processes, infrastructure, data, and automation into systems that are easier to run, maintain, and grow.",
+    "journeyLabel": "The Shamash transformation journey",
+    "items": {
+      "connect-systems": {"category": "Connected ecosystem", "title": "Connect your systems", "description": "Bring applications, infrastructure, and data together so information moves reliably across the business.", "supportingLabel": "Applications / APIs / infrastructure"},
+      "automate-work": {"category": "Intelligent operations", "title": "Automate repetitive work", "description": "Replace manual handoffs and recurring tasks with controlled workflows that keep teams focused on higher-value work.", "supportingLabel": "Approvals / handoffs / validation"},
+      "centralize-information": {"category": "Shared information", "title": "Centralize your information", "description": "Create a dependable source of truth for documents, records, and operational data across every function.", "supportingLabel": "Finance / operations / administration"},
+      "real-time-visibility": {"category": "Operational intelligence", "title": "Gain real-time visibility", "description": "Turn live business data into clear dashboards, alerts, and reporting that support faster decisions.", "supportingLabel": "Dashboards / alerts / reporting"},
+      "secure-operations": {"category": "Resilient foundation", "title": "Secure your operations", "description": "Protect critical systems with deliberate access controls, monitoring, resilience, and recoverability built in.", "supportingLabel": "Access / monitoring / recovery"},
+      "scale-simply": {"category": "Sustainable growth", "title": "Scale without adding complexity", "description": "Expand users, services, and markets on an adaptable foundation that remains efficient and maintainable.", "supportingLabel": "Users / markets / integrations"}
+    }
+  },
+  "platformHub": {
+    "eyebrow": "Platform hub", "title": "Modernize your business.", "description": "Connect delivery, automation, control, security, and measurable value through one coordinated technology platform.", "selectorLabel": "Select a modernization capability",
+    "items": {
+      "deployment-speed": {"label": "Deployment speed", "title": "Move from priority to production with confidence.", "description": "Structured delivery, reusable architecture, and disciplined rollout practices help your organization launch critical platforms faster without introducing operational fragility."},
+      "process-automation": {"label": "Process automation", "title": "Turn repetitive work into controlled digital flows.", "description": "Automate approvals, document handling, reconciliation, and cross-system handoffs so teams spend less time coordinating routine work and more time resolving exceptions."},
+      "compliance-traceability": {"label": "Compliance & traceability", "title": "Build accountability into every important workflow.", "description": "Clear permissions, structured approvals, audit trails, and reliable records give regulated and enterprise teams the evidence they need at every stage."},
+      "system-security": {"label": "System security", "title": "Protect the systems your operations depend on.", "description": "Security shapes access, infrastructure, data movement, monitoring, and deployment from the beginning—reducing exposure without slowing the business down."},
+      "operational-roi": {"label": "Operational ROI", "title": "Make modernization measurable, not theoretical.", "description": "Connect platform investment to cycle time, operating visibility, risk reduction, and service quality so technology progress translates into durable business value."}
+    }
+  },
+  "how": {
+    "eyebrow": "How Shamash works", "title": "A clear path from business need to production.", "description": "One connected delivery model aligns your operations, architecture, integration, rollout, and long-term support.", "processLabel": "Shamash IT delivery process", "stepLabel": "Step {number}",
+    "steps": {
+      "understand": {"title": "Understand", "summary": "We map the workflows, systems, constraints, and outcomes that define the right solution."},
+      "design": {"title": "Design", "summary": "We shape the architecture, security model, integration plan, and delivery roadmap."},
+      "integrate": {"title": "Build & Integrate", "summary": "We build, automate, and connect the solution to the systems your teams already use."},
+      "support": {"title": "Deploy & Support", "summary": "We secure the rollout, monitor production, and support the system as your needs evolve."}
+    }
+  },
+  "testimonials": {
+    "eyebrow": "What clients experience", "title": "Professional delivery feels clear, responsive, and reliable.", "description": "Client feedback reflects the human side of enterprise technology: understanding the work, communicating clearly, and following through.",
+    "selectedLabel": "Selected client testimonial", "themesLabel": "Client experience themes", "chooseLabel": "Choose a client testimonial", "navigationLabel": "Testimonial navigation", "previous": "Previous testimonial", "next": "Next testimonial",
+    "items": {
+      "nt": {"name": "NT representative", "role": "", "organization": "NT", "theme": ["Service quality", "Punctuality", "Integration speed"], "copy": "Shamash IT distinguished itself through its responsiveness, respect for deadlines, and the speed with which the integration was implemented."},
+      "amara-bouzayani": {"name": "Amara Bouzayani", "role": "DSI", "organization": "BT", "theme": ["Technical understanding", "Integration", "Enterprise reliability"], "copy": "The Shamash IT team demonstrated strong technical understanding and the ability to integrate effectively within an existing enterprise environment while maintaining a professional and structured approach."},
+      "abir-jalouli": {"name": "Abir Jalouli", "role": "Representative", "organization": "CBG / NPE", "theme": ["Professionalism", "Service quality", "Availability"], "copy": "We particularly appreciated the professionalism, availability, and responsiveness of the Shamash IT team, as well as their ability to understand our needs and translate them into practical solutions."},
+      "haithem-ben-moulehom": {"name": "Haithem Ben Moulehom", "role": "", "organization": "MedFactor", "theme": ["Factoring expertise", "Migration", "Business understanding"], "copy": "Shamash IT combines technical expertise with a strong understanding of factoring operations, which helped make implementation and system evolution more efficient and easier to manage."}
+    }
+  }
+}

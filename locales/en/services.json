@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "title": "Enterprise Software, AI Automation, Cloud and Managed IT Services",
+    "description": "Explore Shamash IT services across enterprise software engineering, AI automation, digital transformation, cloud infrastructure, cybersecurity and managed IT support."
+  },
+  "hero": {
+    "eyebrow": "Services",
+    "title": "Technology services for secure, connected, intelligent operations.",
+    "description": "Shamash IT combines enterprise software engineering, AI automation, cloud infrastructure, cybersecurity, and managed support so technology initiatives can move from strategy to stable operations.",
+    "panelEyebrow": "Delivery model",
+    "panelTitle": "A connected services system from strategy through stable operations.",
+    "metricLabel": "service pillars aligned around secure enterprise delivery",
+    "chips": ["Software", "AI", "Cloud", "Support"]
+  },
+  "section": {
+    "eyebrow": "Strategic services",
+    "title": "Engineering, automation, infrastructure, and support in one delivery partner.",
+    "description": "Shamash IT pairs product platforms with implementation depth, giving organizations the software, infrastructure, security, and operating support needed for long-term transformation.",
+    "coreEyebrow": "Core message",
+    "coreMessage": "Secure, connected, and intelligent digital systems for business-critical operations."
+  },
+  "catalog": {
+    "eyebrow": "Detailed catalog",
+    "title": "Specialized services that support product delivery and long-term operations.",
+    "description": "These capabilities can be delivered as part of a platform implementation, modernization program, or managed support engagement.",
+    "itemDescription": "Practical expertise delivered with architecture, security, integration, and maintainability in mind."
+  },
+  "items": {
+    "enterprise-software": {
+      "title": "Enterprise Software Engineering",
+      "result": "Custom platforms that turn complex operations into controlled digital systems.",
+      "description": "Design and build custom platforms, APIs, integrations, portals, dashboards, and internal business systems.",
+      "capabilities": ["Business platforms", "APIs", "Portals", "Dashboards", "System integrations"],
+      "technologies": ["Next.js", "Laravel", ".NET", "PostgreSQL", "REST APIs"]
+    },
+    "ai-automation": {
+      "title": "AI Automation and Digital Transformation",
+      "result": "Measurable automation for documents, workflows, approvals, and decisions.",
+      "description": "Automate manual processes, connect systems, implement intelligent document processing, and redesign workflows.",
+      "capabilities": ["Workflow automation", "AI integration", "Document processing", "RPA", "Analytics"],
+      "technologies": ["OpenAI", "OCR", "Workflow engines", "BI", "API orchestration"]
+    },
+    "cloud-security": {
+      "title": "Cloud, Infrastructure and Cybersecurity",
+      "result": "Secure infrastructure for critical applications and operational continuity.",
+      "description": "Deploy, secure, monitor, and maintain reliable infrastructure for critical business applications.",
+      "capabilities": ["Cloud architecture", "Server administration", "Monitoring", "Backup", "Hardening"],
+      "technologies": ["Docker", "Linux", "Cloud", "Firewalls", "Observability"]
+    },
+    "managed-it": {
+      "title": "Managed IT and Long-Term Support",
+      "result": "A long-term partner for maintenance, incident response, and platform evolution.",
+      "description": "Provide maintenance, supervision, incident response, technical support, and continuous platform evolution.",
+      "capabilities": ["Outsourcing", "Maintenance", "Support", "Incident response", "Consulting"],
+      "technologies": ["Helpdesk", "Monitoring", "Patch management", "SLA", "Reporting"]
+    }
+  },
+  "supporting": ["Web Development", "Mobile Development", "UI/UX Design", "ERP Integration", "DevOps", "Consulting", "Maintenance", "Monitoring", "Cybersecurity", "Backup and Continuity"],
+  "process": {
+    "eyebrow": "Delivery process",
+    "title": "A practical delivery path from operational need to stable systems.",
+    "description": "The work starts with operational understanding and continues through architecture, implementation, integration, monitoring, and improvement.",
+    "steps": {
+      "discover": {"title": "Discover", "description": "Clarify business goals, operational constraints, stakeholders, risks, and the decision points the system must improve."},
+      "design": {"title": "Design", "description": "Map workflows, data, security, integrations, and user journeys before committing to architecture or delivery scope."},
+      "build": {"title": "Build", "description": "Deliver secure, maintainable software with iterative reviews, quality checks, and clear implementation milestones."},
+      "integrate": {"title": "Integrate", "description": "Connect the platform to documents, ERP, accounting, banking, identity, cloud, and reporting systems as needed."},
+      "support": {"title": "Support", "description": "Monitor, maintain, improve, and evolve the platform as operations grow and business needs change."}
+    }
+  },
+  "technology": {
+    "eyebrow": "Capabilities",
+    "title": "Technology foundations shaped around security, data, and operations.",
+    "description": "The implementation is shaped around security, integrations, data quality, infrastructure, and operational support.",
+    "items": {
+      "security": {"title": "Secure architecture", "description": "Role-based access, audit trails, hardened infrastructure, backup, monitoring, and controlled data flows."},
+      "integration": {"title": "Integration layer", "description": "APIs and orchestration patterns that connect ERP, accounting, document, identity, and reporting systems."},
+      "operations": {"title": "Reliable operations", "description": "Deployment discipline, observability, incident handling, maintenance, and long-term support planning."},
+      "data": {"title": "Actionable data", "description": "Dashboards, analytics, structured records, and reporting flows that give leaders clearer decisions."}
+    }
+  },
+  "finalCta": "Build the service model your transformation needs."
+}

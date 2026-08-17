@@ -1,0 +1,76 @@
+{
+  "metadata": {"title": "XPERT FACTOR | Plateforme de gestion de l'affacturage", "description": "Logiciel d'affacturage de bout en bout pour banques et institutions financières : contrats, créances, financement, recouvrement, paiements, rapprochement, comptabilité et reporting."},
+  "hero": {
+    "eyebrow": "XPERT FACTOR / Plateforme d'affacturage d'entreprise",
+    "title": "Pilotez tout le cycle d'affacturage depuis une seule plateforme.",
+    "description": "XPERT FACTOR centralise contrats, créances, financement, recouvrement, paiements, rapprochement, risque et reporting dans une plateforme unifiée pour les banques et institutions financières.",
+    "primary": "Demander une démo", "secondary": "Explorer la plateforme", "trust": "Fruit de plusieurs décennies d'expertise en affacturage.",
+    "workspace": "Espace des opérations d'affacturage", "illustrative": "Vue produit illustrative",
+    "metrics": [{"label": "Portefeuille", "value": "Unifié"}, {"label": "Contrôles risque", "value": "Visibles"}, {"label": "Rapprochement", "value": "Connecté"}],
+    "queue": "File des opérations", "queueItems": ["Créance prête à être contrôlée", "Décision de financement enregistrée", "Paiement en attente d'affectation"]
+  },
+  "proof": [{"value": "20+", "label": "ans d'expertise en affacturage"}, {"value": "De bout en bout", "label": "cycle d'affacturage"}, {"value": "Bancaire", "label": "modèle opérationnel"}, {"value": "≈ 120 jours", "label": "cible de déploiement standard"}, {"value": "Paramétrable", "label": "modules et workflows"}],
+  "problem": {
+    "eyebrow": "Le défi opérationnel", "title": "L'affacturage perd en efficacité lorsque le workflow est fragmenté.",
+    "description": "Des contrats, créances, décisions de risque et paiements dispersés ralentissent les équipes et compliquent le contrôle au moment où le besoin en fonds de roulement est critique.",
+    "steps": ["Facture émise", "Paiement retardé", "Trésorerie immobilisée", "Relances manuelles accrues", "Risque opérationnel renforcé"],
+    "solution": "XPERT FACTOR rassemble tout le processus dans un système maîtrisé."
+  },
+  "factoringFlow": {
+    "eyebrow": "L'affacturage, clairement connecté", "title": "Financez la créance. Gardez la maîtrise du cycle.",
+    "description": "La plateforme coordonne les relations commerciales et financières entre adhérent, factor et acheteur, puis clôt le cycle par le règlement et le rapprochement.",
+    "nodes": [{"label": "Vendeur / Adhérent", "detail": "Cède les créances éligibles"}, {"label": "Factor / Institution", "detail": "Évalue le risque et finance"}, {"label": "Acheteur / Débiteur", "detail": "Règle la créance"}, {"label": "Dénouement", "detail": "Le paiement est affecté et rapproché"}]
+  },
+  "lifecycle": {
+    "eyebrow": "Le modèle opérationnel", "title": "Une plateforme. Tout le cycle d'affacturage.",
+    "description": "XPERT FACTOR constitue la couche opérationnelle des équipes d'affacturage, de l'entrée en relation au reporting de pilotage.",
+    "items": [
+      {"title": "Entrée en relation", "detail": "Créer et organiser la relation d'affacturage."}, {"title": "Paramétrage du contrat", "detail": "Configurer contrats, avenants et garanties."},
+      {"title": "Acquisition des créances", "detail": "Enregistrer factures, commandes et créances éligibles."}, {"title": "Risque et limites", "detail": "Contrôler encours acheteur, limites et assurance."},
+      {"title": "Financement", "detail": "Calculer et gérer avances et commissions."}, {"title": "Recouvrement", "detail": "Suivre échéances, recouvrements et impayés."},
+      {"title": "Paiements", "detail": "Enregistrer les encaissements et règlements."}, {"title": "Rapprochement", "detail": "Affecter, lettrer et rapprocher les opérations."},
+      {"title": "Comptabilité", "detail": "Soutenir les opérations comptables de l'activité."}, {"title": "Reporting", "detail": "Donner une vue consolidée aux opérations et au management."}
+    ]
+  },
+  "modules": {
+    "eyebrow": "Explorateur de capacités", "title": "Toutes les fonctions utiles aux équipes d'affacturage, organisées autour du métier.",
+    "description": "Explorez les familles fonctionnelles qui relient front office, back office, risque, comptabilité et pilotage.",
+    "groups": [
+      {"id": "receivables", "label": "Créances", "title": "Constituez un portefeuille de créances maîtrisé.", "description": "Gérez les actifs commerciaux et les structures contractuelles au cœur de chaque relation d'affacturage.", "features": ["Acquisition de créances", "Comptes adhérents", "Contrats et avenants", "Limites et garanties", "Factures et commandes"]},
+      {"id": "financing", "label": "Financement", "title": "Transformez les créances approuvées en financement piloté.", "description": "Coordonnez demandes, calculs, avances, commissions et opérations de financement.", "features": ["Demandes de financement", "Calculs de financement", "Avances", "Gestion des commissions", "Gestion du funding"]},
+      {"id": "collections", "label": "Recouvrement et paiements", "title": "Bouclez le cycle du recouvrement à l'affectation.", "description": "Suivez recouvrements et encaissements, puis rattachez chaque événement à la bonne créance.", "features": ["Recouvrement", "Encaissements", "Affectation des paiements", "Lettrage et rapprochement", "Impayés"]},
+      {"id": "risk", "label": "Risque et assurance", "title": "Rendez visibles exposition, limites et protection.", "description": "Gérez les opérations assurées ou non, en affacturage domestique et international.", "features": ["Assurance-crédit", "Affacturage domestique", "Affacturage international", "Suivi du risque", "Limites acheteurs"]},
+      {"id": "disputes", "label": "Litiges", "title": "Traitez les exceptions sans perdre la traçabilité.", "description": "Conservez chaque exception liée à sa créance et visible des équipes responsables.", "features": ["Litiges", "Prorogations", "Déductions", "Trop-perçus"]},
+      {"id": "accounting", "label": "Comptabilité et documents", "title": "Reliez opérations, comptabilité et justificatifs.", "description": "Regroupez activités comptables, reporting et documents dans le même contexte opérationnel.", "features": ["Opérations comptables", "Reporting d'activité", "GED / gestion documentaire"]},
+      {"id": "bank", "label": "Opérations bancaires", "title": "Adaptez la plateforme à l'institution financière.", "description": "Structurez accès, agences et espaces analytiques autour des responsabilités bancaires réelles.", "features": ["Gestion des agences", "Front et back office", "Gestion des rôles", "Formules de banque centrale", "Modules spécifiques au SI bancaire"]}
+    ]
+  },
+  "platform": {
+    "eyebrow": "Dans la plateforme", "title": "Conçue pour celles et ceux qui pilotent l'affacturage au quotidien.",
+    "description": "Passez d'une vue opérationnelle à l'autre sans perdre le contexte. Chaque espace relie décisions, transactions et suivi.",
+    "views": [
+      {"id": "dashboard", "label": "Tableau de bord", "title": "Poste de pilotage du portefeuille", "description": "Une vue consolidée du financement, du recouvrement, des exceptions et des priorités.", "rows": ["Vue portefeuille", "Activité de financement", "État du recouvrement", "Exceptions opérationnelles"]},
+      {"id": "contracts", "label": "Contrats", "title": "Espace contrats et limites", "description": "Organisez conditions, avenants, limites et garanties autour de la relation adhérent.", "rows": ["Relation adhérent", "Statut du contrat", "Structure des limites", "Garanties et avenants"]},
+      {"id": "financing", "label": "Financement", "title": "Opérations de financement", "description": "Contrôlez les créances éligibles, calculez le financement et enregistrez les décisions.", "rows": ["Créances sélectionnées", "Calcul du financement", "Commissions", "Historique des décisions"]},
+      {"id": "payments", "label": "Paiements", "title": "Contrôle des paiements et affectations", "description": "Saisissez, affectez et rapprochez les paiements tout en identifiant les écarts.", "rows": ["Encaissement", "Statut d'affectation", "File de lettrage", "Solde non résolu"]},
+      {"id": "reporting", "label": "Reporting", "title": "Reporting opérationnel et de pilotage", "description": "Transformez les opérations en vues utiles au back office, au management et à la comptabilité.", "rows": ["Reporting d'activité", "Analyse portefeuille", "Sortie comptable", "Vue management"]}
+    ],
+    "illustrative": "Espace produit illustratif"
+  },
+  "bankOperations": {"eyebrow": "Modèle opérationnel bancaire", "title": "Conçue autour des opérations bancaires réelles.", "description": "XPERT FACTOR relie agences, opérations, risque, comptabilité et management dans une plateforme maîtrisée.", "stages": ["Agences", "Front Office", "Back Office", "Risque / Crédit", "Comptabilité", "Direction"], "controls": ["Gestion des rôles", "Gestion des agences", "Formules de banque centrale", "Analytique", "Modules SI bancaire", "Reporting"]},
+  "ecosystem": {"eyebrow": "Coordination de l'écosystème", "title": "Un seul réseau opérationnel autour de chaque relation d'affacturage.", "description": "La plateforme coordonne les équipes internes et les intervenants externes du financement, de la couverture, du recouvrement et du règlement.", "center": "XPERT FACTOR", "entities": ["Banque / Factor", "Adhérent", "Acheteur", "Assureur-crédit", "Agence de recouvrement", "Avocat", "Apporteur d'affaires", "Co-factor"]},
+  "visibility": {
+    "eyebrow": "Contrôle et visibilité", "title": "Chaque opération. Visible. Maîtrisée. Traçable.", "description": "Donnez à chaque équipe l'information utile tout en conservant un dossier opérationnel entièrement connecté.",
+    "items": [{"label": "Visibilité portefeuille", "detail": "Encours et activité dans une vue"}, {"label": "Suivi du financement", "detail": "Demandes, décisions et avances"}, {"label": "Recouvrement", "detail": "Échéances, relances et impayés"}, {"label": "Limites acheteurs", "detail": "Contexte risque et couverture"}, {"label": "Rapprochement", "detail": "Affectation et lettrage"}, {"label": "Reporting", "detail": "Analyse opérationnelle et de pilotage"}],
+    "demo": "Indicateurs opérationnels illustratifs"
+  },
+  "workflow": {
+    "eyebrow": "Du contrat à l'encaissement", "title": "Un dossier opérationnel continu, du paramétrage au reporting.", "description": "Chaque événement fait avancer le même workflow maîtrisé et clarifie l'historique, la prochaine action et les points d'attention.",
+    "steps": [{"title": "Contrat paramétré", "description": "Conditions, limites et garanties définissent le cadre."}, {"title": "Créance acquise", "description": "Factures et actifs éligibles entrent au portefeuille."}, {"title": "Financement approuvé", "description": "Calculs, commissions et décisions sont enregistrés."}, {"title": "Paiement reçu", "description": "L'encaissement rejoint la file opérationnelle."}, {"title": "Lettrage terminé", "description": "Affectation et lettrage relient le cash à la bonne créance."}, {"title": "Reporting actualisé", "description": "Les vues comptables et de pilotage reflètent le cycle terminé."}]
+  },
+  "flexibility": {"eyebrow": "Flexible par conception", "title": "Standardisée sur l'essentiel. Paramétrable selon vos besoins.", "description": "La plateforme XPERT FACTOR standard peut être complétée par des modules, structures et workflows propres à l'institution.", "core": "Cœur XPERT FACTOR", "layers": ["Intégrations SI bancaire", "Workflows institutionnels", "Reporting", "Rôles", "Structures d'agences", "Modules spécifiques"]},
+  "deployment": {"eyebrow": "Parcours d'implémentation", "title": "Du lancement du projet à une plateforme d'affacturage opérationnelle.", "description": "Un parcours structuré aligne la plateforme standard sur le modèle opérationnel, les données et les équipes de l'institution.", "highlight": "Version standard opérationnelle en environ 120 jours", "disclaimer": "Les 120 jours correspondent à la cible standard décrite par la documentation produit ; le périmètre d'implémentation peut faire varier le calendrier.", "steps": ["Cadrage", "Configuration", "Intégration", "Données et workflows", "Validation et formation", "Mise en production"]},
+  "experience": {"eyebrow": "Autorité produit", "title": "Fondée sur des décennies d'expertise en affacturage.", "description": "XPERT FACTOR évolue depuis le début des années 2000 grâce à l'expérience opérationnelle, aux retours clients et à l'amélioration technologique continue.", "stages": ["Expertise affacturage", "Retours clients", "Expérience opérationnelle", "Évolution technologique"]},
+  "cta": {"eyebrow": "Évaluer XPERT FACTOR", "title": "Voyez comment XPERT FACTOR s'adapte à vos opérations d'affacturage.", "description": "Découvrez comment la plateforme peut accompagner contrats, financement, recouvrement, risque, paiements, rapprochement et reporting.", "primary": "Demander une démo", "secondary": "Parler à un expert"},
+  "accessibility": {"moduleTabs": "Familles de capacités XPERT FACTOR", "platformTabs": "Vues produit XPERT FACTOR", "flowLabel": "Flux de la relation d'affacturage", "lifecycleLabel": "Cycle complet d'affacturage", "ecosystemLabel": "Relations de l'écosystème d'affacturage"}
+}

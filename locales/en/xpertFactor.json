@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "title": "XPERT FACTOR | Enterprise Factoring Management Platform",
+    "description": "End-to-end factoring software for banks and financial institutions, covering contracts, receivables, financing, collections, payments, reconciliation, accounting and reporting."
+  },
+  "hero": {
+    "eyebrow": "XPERT FACTOR / Enterprise Factoring Platform",
+    "title": "Run the entire factoring lifecycle from one platform.",
+    "description": "XPERT FACTOR centralizes contracts, receivables, financing, collections, payments, reconciliation, risk and reporting in a unified platform for banks and financial institutions.",
+    "primary": "Request a demo",
+    "secondary": "Explore the platform",
+    "trust": "Built from decades of factoring expertise.",
+    "workspace": "Factoring operations workspace",
+    "illustrative": "Illustrative product view",
+    "metrics": [
+      {"label": "Portfolio", "value": "Unified"},
+      {"label": "Risk controls", "value": "Visible"},
+      {"label": "Reconciliation", "value": "Connected"}
+    ],
+    "queue": "Operations queue",
+    "queueItems": ["Receivable ready for review", "Financing decision recorded", "Payment awaiting allocation"]
+  },
+  "proof": [
+    {"value": "20+", "label": "years of factoring expertise"},
+    {"value": "End-to-end", "label": "factoring lifecycle"},
+    {"value": "Bank-ready", "label": "operating model"},
+    {"value": "≈ 120 days", "label": "standard deployment target"},
+    {"value": "Configurable", "label": "modules and workflows"}
+  ],
+  "problem": {
+    "eyebrow": "The operational challenge",
+    "title": "Factoring breaks down when the workflow is fragmented.",
+    "description": "Disconnected contracts, receivables, risk decisions and payment records slow teams down and make control harder precisely when working capital matters most.",
+    "steps": ["Invoice issued", "Payment delayed", "Working capital blocked", "Manual follow-up grows", "Operational risk increases"],
+    "solution": "XPERT FACTOR brings the entire process into one controlled system."
+  },
+  "factoringFlow": {
+    "eyebrow": "Factoring, clearly connected",
+    "title": "Finance the receivable. Preserve control of the cycle.",
+    "description": "The platform coordinates the commercial and financial relationships between seller, factor and buyer, then closes the loop through settlement and reconciliation.",
+    "nodes": [
+      {"label": "Seller / Client", "detail": "Transfers eligible receivables"},
+      {"label": "Factor / Institution", "detail": "Assesses risk and provides financing"},
+      {"label": "Buyer / Debtor", "detail": "Pays the receivable"},
+      {"label": "Settlement", "detail": "Payment is allocated and reconciled"}
+    ]
+  },
+  "lifecycle": {
+    "eyebrow": "The operating model",
+    "title": "One platform. The complete factoring lifecycle.",
+    "description": "XPERT FACTOR is the operating layer for factoring teams, connecting every stage from onboarding to management reporting.",
+    "items": [
+      {"title": "Client onboarding", "detail": "Create and organize the factoring relationship."},
+      {"title": "Contract setup", "detail": "Configure contracts, amendments and guarantees."},
+      {"title": "Receivable acquisition", "detail": "Register invoices, orders and eligible receivables."},
+      {"title": "Risk & limits", "detail": "Control buyer exposure, limits and insurance."},
+      {"title": "Financing", "detail": "Calculate and manage advances and commissions."},
+      {"title": "Collection", "detail": "Follow collections, maturity and unpaid invoices."},
+      {"title": "Payments", "detail": "Record incoming payments and settlement events."},
+      {"title": "Reconciliation", "detail": "Allocate, match and reconcile transactions."},
+      {"title": "Accounting", "detail": "Support the accounting operations of the activity."},
+      {"title": "Reporting", "detail": "Give operations and management a consolidated view."}
+    ]
+  },
+  "modules": {
+    "eyebrow": "Capability explorer",
+    "title": "Everything factoring teams need, organized around the work.",
+    "description": "Explore the functional families that connect front office, back office, risk, accounting and management.",
+    "groups": [
+      {"id": "receivables", "label": "Receivables", "title": "Build a controlled receivables portfolio.", "description": "Manage the commercial assets and contractual structures that sit at the heart of each factoring relationship.", "features": ["Receivable acquisition", "Customer accounts", "Contracts and amendments", "Limits and guarantees", "Invoices and orders"]},
+      {"id": "financing", "label": "Financing", "title": "Turn approved receivables into managed financing.", "description": "Coordinate financing requests, calculations, advances, commissions and funding operations.", "features": ["Financing requests", "Financing calculations", "Advances", "Commission management", "Funding management"]},
+      {"id": "collections", "label": "Collections & payments", "title": "Close the loop from collection to allocation.", "description": "Track collections and incoming payments, then match each event to the right receivable and account.", "features": ["Collections", "Incoming payments", "Payment allocation", "Lettrage and reconciliation", "Unpaid invoices"]},
+      {"id": "risk", "label": "Risk & insurance", "title": "Put exposure, limits and protection in view.", "description": "Support insured and uninsured operations across domestic and international factoring models.", "features": ["Credit insurance", "Domestic factoring", "International factoring", "Risk monitoring", "Buyer limits"]},
+      {"id": "disputes", "label": "Disputes", "title": "Resolve exceptions without losing the audit trail.", "description": "Keep operational exceptions attached to the receivable and visible to the teams responsible for resolution.", "features": ["Disputes", "Extensions", "Deductions", "Excess payments"]},
+      {"id": "accounting", "label": "Accounting & documents", "title": "Connect operations to accounting and evidence.", "description": "Bring accounting activities, reporting and supporting documents into the same operational context.", "features": ["Accounting operations", "Activity reporting", "GED / document management"]},
+      {"id": "bank", "label": "Bank operations", "title": "Fit the platform to a financial institution.", "description": "Structure access, branches and analytical spaces around real banking responsibilities.", "features": ["Branch management", "Front and back office", "Role management", "Central-bank formulas", "Banking-system-specific modules"]}
+    ]
+  },
+  "platform": {
+    "eyebrow": "Inside the platform",
+    "title": "Built for the people running factoring operations every day.",
+    "description": "Move between operational views without losing context. Each workspace connects decisions, transactions and follow-up.",
+    "views": [
+      {"id": "dashboard", "label": "Dashboard", "title": "Portfolio command center", "description": "A consolidated view of financing, collections, exceptions and operational priorities.", "rows": ["Portfolio overview", "Financing activity", "Collections status", "Operational exceptions"]},
+      {"id": "contracts", "label": "Contracts", "title": "Contract and limit workspace", "description": "Keep contractual terms, amendments, limits and guarantees organized around the client relationship.", "rows": ["Client relationship", "Contract status", "Limit structure", "Guarantees and amendments"]},
+      {"id": "financing", "label": "Financing", "title": "Financing operations", "description": "Review eligible receivables, calculate financing and record operational decisions.", "rows": ["Receivables selected", "Financing calculation", "Commissions", "Decision history"]},
+      {"id": "payments", "label": "Payments", "title": "Payment and allocation control", "description": "Capture payments, allocate them and surface amounts that still require reconciliation.", "rows": ["Incoming payment", "Allocation status", "Matching queue", "Unresolved balance"]},
+      {"id": "reporting", "label": "Reporting", "title": "Operations and management reporting", "description": "Turn the operational record into activity views for back office, management and accounting teams.", "rows": ["Activity reporting", "Portfolio analysis", "Accounting output", "Management view"]}
+    ],
+    "illustrative": "Illustrative product workspace"
+  },
+  "bankOperations": {
+    "eyebrow": "Banking operating model",
+    "title": "Designed around real banking operations.",
+    "description": "XPERT FACTOR connects the responsibilities of branches, operational teams, risk, accounting and management through one controlled platform.",
+    "stages": ["Branches", "Front Office", "Back Office", "Risk / Credit", "Accounting", "Management"],
+    "controls": ["Role management", "Branch management", "Central-bank formulas", "Analytics", "Banking SI modules", "Reporting"]
+  },
+  "ecosystem": {
+    "eyebrow": "Ecosystem coordination",
+    "title": "One operational network around every factoring relationship.",
+    "description": "The platform coordinates internal teams and the external participants involved in financing, protection, recovery and settlement.",
+    "center": "XPERT FACTOR",
+    "entities": ["Bank / Factor", "Client", "Buyer", "Credit insurer", "Collection agency", "Lawyer", "Business introducer", "Co-factor"]
+  },
+  "visibility": {
+    "eyebrow": "Control & visibility",
+    "title": "Every operation. Visible. Controlled. Traceable.",
+    "description": "Give each team the information it needs while keeping the full operational record connected.",
+    "items": [
+      {"label": "Portfolio visibility", "detail": "Exposure and activity in one view"},
+      {"label": "Financing monitoring", "detail": "Requests, decisions and advances"},
+      {"label": "Collections", "detail": "Maturity, recovery and unpaid invoices"},
+      {"label": "Buyer limits", "detail": "Risk and protection context"},
+      {"label": "Reconciliation", "detail": "Payment allocation and matching"},
+      {"label": "Reporting", "detail": "Operational and management analysis"}
+    ],
+    "demo": "Illustrative operating indicators"
+  },
+  "workflow": {
+    "eyebrow": "From contract to cash",
+    "title": "A continuous operational record from setup to reporting.",
+    "description": "Each event advances the same controlled workflow, giving teams a clear view of what happened, what is next and where attention is required.",
+    "steps": [
+      {"title": "Contract configured", "description": "Terms, limits and guarantees establish the operating framework."},
+      {"title": "Receivable acquired", "description": "Invoices and eligible assets enter the managed portfolio."},
+      {"title": "Financing approved", "description": "Calculations, commissions and decisions are recorded."},
+      {"title": "Payment received", "description": "The incoming payment enters the operational queue."},
+      {"title": "Matching completed", "description": "Allocation and lettrage connect cash to the right receivable."},
+      {"title": "Reporting updated", "description": "Accounting and management views reflect the completed cycle."}
+    ]
+  },
+  "flexibility": {
+    "eyebrow": "Flexible by design",
+    "title": "Standardized where it matters. Configurable where you need it.",
+    "description": "The standard XPERT FACTOR platform can be complemented with institution-specific modules, structures and workflows.",
+    "core": "Core XPERT FACTOR",
+    "layers": ["Banking SI integrations", "Institution workflows", "Reporting", "Roles", "Branch structures", "Custom modules"]
+  },
+  "deployment": {
+    "eyebrow": "Implementation path",
+    "title": "From project kickoff to an operational factoring platform.",
+    "description": "A structured path aligns the standard platform with the institution's operating model, data and teams.",
+    "highlight": "Standard version operational in approximately 120 days",
+    "disclaimer": "The 120-day timeframe is the standard deployment target described by the product documentation; implementation scope can affect timing.",
+    "steps": ["Discovery", "Configuration", "Integration", "Data & workflow setup", "Validation & training", "Go-live"]
+  },
+  "experience": {
+    "eyebrow": "Product authority",
+    "title": "Built on decades of factoring expertise.",
+    "description": "XPERT FACTOR has evolved since the early 2000s through operational experience, client feedback and continuous technology improvement.",
+    "stages": ["Factoring expertise", "Client feedback", "Operational experience", "Technology evolution"]
+  },
+  "cta": {
+    "eyebrow": "Evaluate XPERT FACTOR",
+    "title": "See how XPERT FACTOR fits your factoring operations.",
+    "description": "Discover how the platform can support your institution across contracts, financing, collections, risk, payments, reconciliation and reporting.",
+    "primary": "Request a demo",
+    "secondary": "Talk to an expert"
+  },
+  "accessibility": {
+    "moduleTabs": "XPERT FACTOR capability families",
+    "platformTabs": "XPERT FACTOR product views",
+    "flowLabel": "Factoring relationship flow",
+    "lifecycleLabel": "Complete factoring lifecycle",
+    "ecosystemLabel": "Factoring ecosystem relationships"
+  }
+}

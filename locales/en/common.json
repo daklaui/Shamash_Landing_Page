@@ -1,0 +1,139 @@
+{
+  "brand": {"logoAlt": "Shamash IT — Information Technology"},
+  "metadata": {
+    "siteTitle": "Shamash IT | Enterprise Software, FinTech Platforms and AI Automation",
+    "siteDescription": "Shamash IT builds secure enterprise software, factoring platforms, ERP systems, document management solutions, AI automation, cloud infrastructure and managed IT services for organizations in Tunisia, Africa and Europe.",
+    "organizationDescription": "Enterprise software, FinTech platforms, AI automation, cloud infrastructure, cybersecurity and managed IT services."
+  },
+  "navigation": {
+    "primaryLabel": "Primary navigation",
+    "mobileLabel": "Mobile navigation",
+    "dialogLabel": "Site navigation",
+    "closeMenu": "Close menu",
+    "closeBackdrop": "Close menu backdrop",
+    "openMenu": "Open menu",
+    "solutions": "Our Solutions",
+    "services": "Our Services",
+    "automationWorkflows": "Automation Workflows",
+    "industries": "Industries",
+    "resources": "Resources",
+    "company": "Company",
+    "about": "About Shamash IT",
+    "contact": "Contact",
+    "strategicCapability": "Strategic capability",
+    "consultation": "Consultation",
+    "aboutDescription": "Enterprise software, FinTech, AI automation, cloud, and managed technology expertise.",
+    "contactDescription": "Book a demo, request a consultation, or discuss a transformation project.",
+    "viewAll": "View all {section}"
+  },
+  "actions": {
+    "bookDemo": "Book a Demo",
+    "requestConsultation": "Request a Consultation",
+    "viewServices": "View Services",
+    "viewSupportingServices": "View Supporting Services",
+    "learnMore": "Learn more",
+    "contactUs": "Contact us"
+  },
+  "language": {
+    "selectorLabel": "Choose language",
+    "currentLabel": "Current language: {language}",
+    "switchTo": "Switch language to {language}"
+  },
+  "footer": {
+    "description": "Shamash IT transforms complex business operations into secure, connected, and intelligent digital systems for organizations in Tunisia, Africa, and Europe.",
+    "solutions": "Our Solutions",
+    "services": "Our Services",
+    "company": "Company"
+  },
+  "contactInfo": {
+    "location": "Tunisia, serving Africa and Europe",
+    "email": "contact@shamash-it.com",
+    "availability": "Demo and consultation by request"
+  },
+  "faq": {
+    "items": {
+      "scope": {
+        "question": "Does Shamash IT only build websites?",
+        "answer": "No. Shamash IT focuses on enterprise software, FinTech platforms, ERP, document management, AI automation, cloud infrastructure, cybersecurity, and managed support. Web and mobile development is part of a broader enterprise capability."
+      },
+      "integration": {
+        "question": "Can Shamash IT work with existing systems?",
+        "answer": "Yes. Integration is a core part of the delivery model. Solutions can connect with ERP, accounting, document, identity, banking, reporting, and cloud systems through secure APIs and workflow design."
+      },
+      "financialInstitution": {
+        "question": "Which solution is best for a financial institution?",
+        "answer": "Banks, factoring companies, and financial institutions should start with Xpert Factor, the platform focused on factoring, financing workflows, credit risk, collections, accounting, and reporting."
+      },
+      "support": {
+        "question": "Can the team support a platform after launch?",
+        "answer": "Yes. Shamash IT provides managed IT, maintenance, monitoring, incident response, technical support, and long-term platform evolution."
+      }
+    }
+  },
+  "finalCta": {
+    "eyebrow": "Next step",
+    "title": "Ready to choose the right Shamash IT solution?",
+    "description": "Start with a focused conversation about your organization, workflows, systems, and the business results you need from technology."
+  },
+  "visuals": {
+    "liveWorkspace": "{code} Live Workspace",
+    "secureWorkspace": "Secure connected workspace",
+    "live": "Live",
+    "keyResult": "Key result",
+    "integratedSystems": "Integrated systems",
+    "verified": "Verified",
+    "types": {
+      "factoring-dashboard": {
+        "title": "Factoring portfolio",
+        "leftTitle": "Portfolio exposure",
+        "rightTitle": "Financing flow",
+        "metricLabel": "Healthy exposure",
+        "line": "Risk-controlled portfolio",
+        "rows": ["Debtor verified", "Limit checked", "Funding cleared"],
+        "chips": ["Core banking", "KYC", "Accounting"]
+      },
+      "erp-dashboard": {
+        "title": "Business operations",
+        "leftTitle": "Cash-flow cockpit",
+        "rightTitle": "Operations flow",
+        "metricLabel": "Tracked cash flow",
+        "line": "Open value tracked",
+        "rows": ["Quote accepted", "Invoice issued", "Payment reconciled"],
+        "chips": ["Inventory", "CRM", "Accounting"]
+      },
+      "document-workflow": {
+        "title": "Document workflow",
+        "leftTitle": "Secure archive",
+        "rightTitle": "Approval flow",
+        "metricLabel": "Average retrieval",
+        "line": "Average retrieval time",
+        "rows": ["OCR extracted", "Approver notified", "Record archived"],
+        "chips": ["Scanner", "Signature", "Retention"]
+      },
+      "automation-orchestration": {
+        "title": "Automation queue",
+        "leftTitle": "Automation queue",
+        "rightTitle": "System orchestration",
+        "metricLabel": "Less manual handling",
+        "line": "Manual handling reduced",
+        "rows": ["Document parsed", "ERP updated", "Exception routed"],
+        "chips": ["AI", "API", "Analytics"]
+      },
+      "web-mobile-architecture": {
+        "title": "Application delivery",
+        "leftTitle": "Product delivery",
+        "rightTitle": "Cloud release flow",
+        "metricLabel": "Monitored services",
+        "line": "Monitored services",
+        "rows": ["API tested", "Mobile synced", "Release monitored"],
+        "chips": ["Web", "Mobile", "DevOps"]
+      }
+    }
+  },
+  "notFound": {
+    "eyebrow": "Page not found",
+    "title": "This page is not available.",
+    "description": "The address may have changed or the page may no longer exist.",
+    "homeAction": "Return to home"
+  }
+}
