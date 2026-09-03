@@ -16,6 +16,7 @@ import { rawMessage } from "@/i18n/raw";
 export const solutionIds = [
   "xpertfactor",
   "factorix",
+  "recouvrement-creances",
   "document-management",
   "ai-automation",
   "web-mobile-development"
@@ -26,6 +27,7 @@ export type SolutionId = (typeof solutionIds)[number];
 const solutionMeta: Record<SolutionId, { href: string; visualType: VisualType }> = {
   xpertfactor: { href: "/solutions/xpertfactor", visualType: "factoring-dashboard" },
   factorix: { href: "/solutions/factorix", visualType: "erp-dashboard" },
+  "recouvrement-creances": { href: "/solutions/recouvrement-creances", visualType: "collection-management" },
   "document-management": { href: "/solutions/document-management", visualType: "document-workflow" },
   "ai-automation": { href: "/solutions/ai-automation", visualType: "automation-orchestration" },
   "web-mobile-development": { href: "/solutions/web-mobile-development", visualType: "web-mobile-architecture" }
@@ -86,6 +88,7 @@ export function useLocalizedIndustries() {
 const heroMeta: Record<SolutionId, { primaryHref: string; secondaryHref: string; image: string; visualType: VisualType }> = {
   xpertfactor: { primaryHref: "/solutions/xpertfactor", secondaryHref: "/contact", image: "/images/hero-xpertfactor.png", visualType: "factoring-dashboard" },
   factorix: { primaryHref: "/solutions/factorix", secondaryHref: "/contact", image: "/images/hero-factorix.png", visualType: "erp-dashboard" },
+  "recouvrement-creances": { primaryHref: "/solutions/recouvrement-creances", secondaryHref: "/contact", image: "/images/hero-recouvrement.png", visualType: "collection-management" },
   "document-management": { primaryHref: "/solutions/document-management", secondaryHref: "/contact", image: "/images/hero-document-management.png", visualType: "document-workflow" },
   "ai-automation": { primaryHref: "/solutions/ai-automation", secondaryHref: "/resources", image: "/images/hero-ai-automation.png", visualType: "automation-orchestration" },
   "web-mobile-development": { primaryHref: "/solutions/web-mobile-development", secondaryHref: "/services", image: "/images/hero-web-mobile-development.png", visualType: "web-mobile-architecture" }

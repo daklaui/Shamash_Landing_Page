@@ -5,7 +5,7 @@ const baseUrl = "https://www.shamash-it.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = ["", "/services", "/industries", "/about", "/resources", "/contact"];
-  const solutionRoutes = ["/solutions/xpertfactor", "/solutions/factorix", "/solutions/document-management", "/solutions/ai-automation", "/solutions/web-mobile-development"];
+  const solutionRoutes = ["/solutions/xpertfactor", "/solutions/factorix", "/solutions/recouvrement-creances", "/solutions/document-management", "/solutions/ai-automation", "/solutions/web-mobile-development"];
 
   return locales.flatMap((locale) =>
     [...staticRoutes, ...solutionRoutes].map((route) => ({

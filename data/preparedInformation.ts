@@ -11,6 +11,12 @@ export const solutionIdentity = {
     logo: "/logos/factorix-logo-v2.webp",
     pattern: "operations"
   },
+  "recouvrement-creances": {
+    code: "RC",
+    label: "Recouvrement",
+    logo: null,
+    pattern: "collection"
+  },
   "document-management": {
     code: "XA",
     label: "XpertArchive",

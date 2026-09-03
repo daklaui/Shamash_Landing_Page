@@ -1,0 +1,347 @@
+{
+  "hero": {
+    "eyebrow": "Collections & Credit Management",
+    "title": "Turn your receivables into cash.",
+    "description": "Structure your collection process, automate reminders, manage payment plans and disputes, and maintain clear visibility of every receivable until settlement.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "Discover the Solution",
+    "reassurance": "Enterprise Solution • Integrates with Existing Systems • Secure • Scalable",
+    "imageAlt": "Collection officer working on a multi-screen management system"
+  },
+  "dashboard": {
+    "title": "Collection Dashboard",
+    "period": "Consolidated View • August 2026",
+    "live": "Up to date",
+    "metrics": {
+      "total": "Total Receivables",
+      "overdue": "Overdue Receivables",
+      "collected": "Recovered Amounts",
+      "rate": "Collection Rate",
+      "delay": "Average Delay",
+      "plans": "Active Payment Plans"
+    },
+    "aging": "Aging Analysis",
+    "actions": "Actions Required",
+    "events": {
+      "email": "Reminder email sent",
+      "response": "Buyer response received",
+      "payment": "Partial payment recorded"
+    },
+    "floatStatus": "Receivable FAC-2026-0184 settled"
+  },
+  "subnav": {
+    "label": "Collections Navigation",
+    "items": {
+      "journey": "Journey",
+      "overview": "Overview",
+      "workflow": "Automation",
+      "timeline": "History",
+      "paymentPlan": "Payment Plans",
+      "disputes": "Disputes",
+      "buyer360": "Buyer 360°",
+      "reporting": "Dashboard"
+    },
+    "demo": "Request a Demo"
+  },
+  "journey": {
+    "eyebrow": "Collection Journey",
+    "title": "From first overdue to settlement, every step is controlled.",
+    "description": "The solution covers the entire collection cycle, from receivable import to bank reconciliation.",
+    "steps": [
+      { "title": "Import", "description": "Import invoices and buyers from existing systems." },
+      { "title": "Analysis", "description": "Identify overdue receivables, aging and prioritization." },
+      { "title": "Reminders", "description": "Automated sending of reminders by email and SMS." },
+      { "title": "Communication", "description": "Track buyer responses and interactions." },
+      { "title": "Payment Plan", "description": "Propose and track payment agreements." },
+      { "title": "Dispute", "description": "Manage and resolve disputes." },
+      { "title": "Payment", "description": "Record and track payments." },
+      { "title": "Closure", "description": "Bank reconciliation and case closure." }
+    ]
+  },
+  "overview": {
+    "eyebrow": "Centralized Management",
+    "title": "All your receivables in a single view.",
+    "description": "Centralize buyer, invoice and receivable information to provide your teams with a complete and reliable overview.",
+    "items": {
+      "importBuyers": {
+        "title": "Buyer Import",
+        "description": "Synchronize with existing systems to retrieve buyers with outstanding receivables."
+      },
+      "importInvoices": {
+        "title": "Invoice Import",
+        "description": "Automatic import of unpaid invoices from billing systems or business applications."
+      },
+      "dueDateTracking": {
+        "title": "Due Date Tracking",
+        "description": "Clear visualization of invoices approaching due date and overdue invoices."
+      },
+      "statusTracking": {
+        "title": "Receivable Status",
+        "description": "Track each receivable by status: unpaid, partially paid, under dispute, under payment plan, or settled."
+      },
+      "aging": {
+        "title": "Aging Analysis",
+        "description": "Distribution of receivables by age: not due, 1-30 days, 31-60 days, 61-90 days, and 90+ days."
+      }
+    },
+    "statuses": ["Unpaid", "Partially paid", "Under dispute", "Under payment plan", "Settled"],
+    "agingCategories": ["Not due", "1-30 days", "31-60 days", "61-90 days", "90+ days"],
+    "businessRule": "Invoices covered by an active payment plan do not continue through the standard automated reminder workflow."
+  },
+  "workflow": {
+    "eyebrow": "Reminder Automation",
+    "title": "The right reminder, at the right time, on the right channel.",
+    "description": "Configure collection scenarios adapted to your business rules, buyer segments and communication channels.",
+    "featuresLabel": "Key Features",
+    "scenarios": [
+      { "delay": "D+7", "action": "Courtesy email" },
+      { "delay": "D+15", "action": "Second reminder" },
+      { "delay": "D+30", "action": "Email + SMS" },
+      { "delay": "Escalation", "action": "Manager intervention" },
+      { "delay": "Pre-litigation", "action": "Formal notice" }
+    ],
+    "features": ["Automated emails", "SMS reminders", "Configurable timing", "Customizable templates", "Buyer segmentation", "Collection status", "Reminder history", "Responses and manual actions", "Automatic escalation"]
+  },
+  "timeline": {
+    "eyebrow": "Complete Traceability",
+    "title": "Every action is recorded, every case is traceable.",
+    "description": "The complete history of collection interactions and actions remains available for every receivable and every buyer.",
+    "events": [
+      { "date": "12/08", "action": "Reminder email sent" },
+      { "date": "18/08", "action": "Buyer response received" },
+      { "date": "19/08", "action": "Dispute declared" },
+      { "date": "21/08", "action": "Dispute processed" },
+      { "date": "22/08", "action": "Payment plan proposed" },
+      { "date": "23/08", "action": "Payment plan validated" },
+      { "date": "30/08", "action": "First installment settled" }
+    ]
+  },
+  "paymentPlan": {
+    "eyebrow": "Payment Plan Management",
+    "title": "Turn a payment promise into a tracked installment plan.",
+    "description": "Create, validate and track flexible payment plans adapted to each buyer's situation.",
+    "scenarioA": {
+      "title": "Number of Months",
+      "description": "Define the number of months and the system automatically calculates installments.",
+      "example": "12,000 TND over 4 months = 3,000 TND × 4"
+    },
+    "scenarioB": {
+      "title": "Fixed Installment Amount",
+      "description": "Define the desired installment amount and the system determines the number of installments.",
+      "example": "12,000 TND at 2,500 TND/month = 6 installments"
+    },
+    "features": ["Automatic installment calculation", "Rounding and cent management", "Partial payment tracking", "Missed payment alerts", "Buyer validation and confirmation", "Pre-due-date notifications"]
+  },
+  "paymentNotifications": {
+    "eyebrow": "Notification Lifecycle",
+    "title": "The buyer is informed at every stage of the plan.",
+    "steps": [
+      { "event": "Plan validated", "action": "Confirmation sent" },
+      { "event": "Before due date", "action": "Automatic reminder" },
+      { "event": "Due date", "action": "Payment monitoring" },
+      { "event": "Payment missing", "action": "Alert triggered" },
+      { "event": "Payment received", "action": "Plan updated" },
+      { "event": "Plan completed", "action": "Closure" }
+    ]
+  },
+  "disputes": {
+    "eyebrow": "Dispute Management",
+    "title": "Separate genuine delays from disputes that need resolution.",
+    "description": "Identify, document and resolve disputes while maintaining a complete history of associated collection actions.",
+    "statuses": ["Open", "In progress", "Awaiting buyer", "Resolved"],
+    "fields": {
+      "reason": "Dispute reason",
+      "invoice": "Related invoice",
+      "buyer": "Buyer",
+      "amount": "Amount",
+      "manager": "Responsible manager",
+      "date": "Creation date",
+      "status": "Status",
+      "history": "History",
+      "comments": "Comments",
+      "actions": "Actions",
+      "resolution": "Resolution"
+    },
+    "note": "Collection actions automatically adapt when an invoice is under dispute."
+  },
+  "buyer360": {
+    "eyebrow": "Complete View",
+    "title": "One buyer, the full story.",
+    "description": "Visualize the entire relationship with a buyer from a single screen: identity, financial situation, history and risk level.",
+    "identity": {
+      "title": "Identity",
+      "fields": ["Company name", "Contact", "Contact information"]
+    },
+    "financial": {
+      "title": "Financial Situation",
+      "fields": ["Outstanding amount", "Overdue amount", "Average delay", "Oldest unpaid invoice"]
+    },
+    "history": {
+      "title": "History",
+      "fields": ["Invoices", "Payments", "Reminders", "Disputes", "Payment plans"]
+    },
+    "risk": {
+      "title": "Risk Level",
+      "levels": ["Low risk", "Medium risk", "High risk"]
+    }
+  },
+  "risk": {
+    "eyebrow": "Decision Support",
+    "title": "Prioritize your collection actions.",
+    "description": "The solution identifies buyers requiring priority attention based on objective criteria from payment history.",
+    "indicators": [
+      "Repeated late payments",
+      "Significant overdue amounts",
+      "Broken payment commitments",
+      "Missed payment plan installments",
+      "Frequent disputes",
+      "Increasing payment delays"
+    ],
+    "note": "Risk analysis is based on business rules and payment history, not autonomous decisions."
+  },
+  "preLitigation": {
+    "eyebrow": "Pre-Litigation",
+    "title": "From amicable collection to formal notice.",
+    "description": "Structure the transition from friendly reminders to pre-litigation with complete action tracking.",
+    "workflow": [
+      { "step": "Amicable Reminders", "description": "Email and SMS reminders" },
+      { "step": "Final Reminder", "description": "Formal warning" },
+      { "step": "Formal Notice", "description": "Formal notification" },
+      { "step": "Pre-litigation Tracking", "description": "Monitoring and escalation" }
+    ],
+    "features": ["Final formal reminder", "Formal notice", "Action history", "Document generation", "Status tracking", "Transition to litigation"]
+  },
+  "reporting": {
+    "eyebrow": "Analytics",
+    "title": "Drive your collections with data.",
+    "description": "Track key performance indicators of your collection process from a dedicated dashboard.",
+    "kpis": [
+      { "label": "Total Receivables", "value": "248,500 TND" },
+      { "label": "Overdue Receivables", "value": "124,300 TND" },
+      { "label": "Recovered Amount", "value": "87,200 TND" },
+      { "label": "Collection Rate", "value": "70.2%" },
+      { "label": "Active Payment Plans", "value": "18 cases" },
+      { "label": "Open Disputes", "value": "7 cases" }
+    ],
+    "indicators": ["Total receivables", "Overdue receivables", "Recovered amount", "Collection rate", "Aging", "Amount under payment plan", "Overdue installments", "Open disputes", "At-risk cases", "Reminder performance"]
+  },
+  "reports": {
+    "eyebrow": "Configurable Reporting",
+    "title": "Reports adapted to each need.",
+    "description": "Generate detailed reports according to your criteria and export results in the appropriate format.",
+    "types": [
+      { "name": "Unpaid Invoices", "description": "Detailed overview of invoices awaiting payment." },
+      { "name": "Payment Plans", "description": "Current payment plans and their execution." },
+      { "name": "Disputes", "description": "Open and resolved disputes with their history." },
+      { "name": "Collections", "description": "Amounts collected over a selected period." },
+      { "name": "Aging", "description": "Distribution of receivables by age of delay." }
+    ],
+    "formats": ["Excel", "PDF"]
+  },
+  "integrations": {
+    "eyebrow": "Integrations",
+    "title": "Connected to your information system.",
+    "description": "The solution integrates with existing systems to ensure reliable data flow between billing, banking and communication tools.",
+    "categories": {
+      "invoicing": {
+        "title": "Billing / ERP",
+        "description": "Import buyers, invoices, due dates and payments from existing systems."
+      },
+      "banking": {
+        "title": "Banking Systems",
+        "description": "Retrieve and synchronize payment information when supported."
+      },
+      "reconciliation": {
+        "title": "Bank Reconciliation",
+        "description": "Identify payments associated with receivables to accelerate closure."
+      },
+      "email": {
+        "title": "Email",
+        "description": "Send collection communications to buyers."
+      },
+      "sms": {
+        "title": "SMS",
+        "description": "Payment reminders via SMS."
+      },
+      "apps": {
+        "title": "Business Applications",
+        "description": "Integration through the architecture supported by the solution."
+      }
+    }
+  },
+  "security": {
+    "eyebrow": "Security & Access Control",
+    "title": "Protected financial data.",
+    "description": "The solution integrates access controls, audit trails and protection measures tailored to sensitive financial information.",
+    "items": [
+      { "title": "Role-based Access", "description": "Collection manager, administrator, financial direction: each role sees only what is relevant to them." },
+      { "title": "Access Control", "description": "Administrator access, manager access and strict control of financial information." },
+      { "title": "Traceability", "description": "Complete history of actions, modifications and interventions on every case." },
+      { "title": "Secure Integrations", "description": "Secure connection to billing, banking and communication systems." }
+    ],
+    "note": "Regulatory compliance is considered during design. Specific certifications are presented only when confirmed by the project."
+  },
+  "customWorkflow": {
+    "eyebrow": "Business Flexibility",
+    "title": "A collection process tailored to your organization.",
+    "description": "Configure the steps and reminder rules according to your business needs, buyer segments and communication channels.",
+    "example": ["Due Date", "Gentle Reminder", "Reinforced Reminder", "Manager Call", "Payment Plan Proposal", "Final Reminder", "Pre-litigation"]
+  },
+  "buyerPortal": {
+    "eyebrow": "Buyer Portal (Optional)",
+    "title": "A dedicated space for your buyers.",
+    "description": "Offer your buyers a portal to view their invoices, payment plans and payment history.",
+    "features": ["Invoice consultation", "Balance inquiry", "Payment plan view", "Payment history", "Information exchange", "Document consultation"]
+  },
+  "useCases": {
+    "eyebrow": "Use Cases",
+    "title": "Two concrete collection scenarios.",
+    "case1": {
+      "title": "Reschedule multiple invoices over several months",
+      "steps": [
+        "3 overdue invoices",
+        "Buyer selection",
+        "Invoice selection",
+        "Choice: 6 months",
+        "Automatic calculation",
+        "Validation",
+        "Buyer notification",
+        "Automatic tracking"
+      ]
+    },
+    "case2": {
+      "title": "Set a fixed amount per installment",
+      "total": "Total unpaid: 15,000 TND",
+      "amount": "Desired installment: 2,500 TND",
+      "result": "6 installments",
+      "steps": [
+        "Total unpaid: 15,000 TND",
+        "Desired installment: 2,500 TND",
+        "Automatic calculation",
+        "6 installments",
+        "Validation",
+        "Notifications",
+        "Missed payment alert"
+      ]
+    }
+  },
+  "beforeAfter": {
+    "eyebrow": "Before / After",
+    "title": "Collection reaches a new level.",
+    "before": {
+      "title": "Before",
+      "items": ["Excel spreadsheets", "Manual calls", "Forgotten reminders", "Scattered information", "Low visibility", "Hard-to-track commitments", "Disputes mixed with overdue", "Manual reporting"]
+    },
+    "after": {
+      "title": "With the Solution",
+      "items": ["Centralized receivables", "Structured reminders", "Tracked payment plans", "Complete history", "Case prioritization", "Identified disputes", "Alerts", "Dashboards"]
+    }
+  },
+  "cta": {
+    "eyebrow": "Take Action",
+    "title": "Structure your collections. Accelerate your cash flow.",
+    "description": "Discover how the solution can integrate with your existing environment and structure your entire collection process.",
+    "primary": "Request a Demo",
+    "secondary": "Contact Us"
+  }
+}

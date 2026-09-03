@@ -15,6 +15,11 @@ const variants = {
     chart: [34, 58, 72, 49, 81],
     icon: Layers3
   },
+  "collection-management": {
+    metric: "87%",
+    chart: [38, 52, 61, 74, 82],
+    icon: ShieldCheck
+  },
   "document-workflow": {
     metric: "6m",
     chart: [76, 66, 84, 58, 91],

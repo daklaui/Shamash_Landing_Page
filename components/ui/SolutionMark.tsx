@@ -14,6 +14,7 @@ import { useLocalizedSolution } from "@/data/localized";
 const iconMap = {
   xpertfactor: Landmark,
   factorix: ReceiptText,
+  "recouvrement-creances": Landmark,
   "document-management": FileText,
   "ai-automation": Workflow,
   "web-mobile-development": Smartphone

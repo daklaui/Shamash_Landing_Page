@@ -1,0 +1,347 @@
+{
+  "hero": {
+    "eyebrow": "Recouvrement & Credit Management",
+    "title": "Transformez vos créances en encaissements.",
+    "description": "Structurez votre processus de recouvrement, automatisez les relances, gérez les échéanciers et litiges, et gardez une vision claire de chaque créance jusqu'à son règlement.",
+    "primaryCta": "Demander une démonstration",
+    "secondaryCta": "Découvrir la solution",
+    "reassurance": "Solution entreprise • Intégration au SI existant • Sécurisée • Évolutive",
+    "imageAlt": "Chargée de recouvrement travaillant sur un système de gestion multi-écrans"
+  },
+  "dashboard": {
+    "title": "Tableau de bord recouvrement",
+    "period": "Vue consolidée • Août 2026",
+    "live": "À jour",
+    "metrics": {
+      "total": "Créances totales",
+      "overdue": "Créances échues",
+      "collected": "Montants récupérés",
+      "rate": "Taux de recouvrement",
+      "delay": "Retards moyens",
+      "plans": "Échéanciers actifs"
+    },
+    "aging": "Analyse Aging",
+    "actions": "Actions à effectuer",
+    "events": {
+      "email": "Relance e-mail envoyée",
+      "response": "Réponse acheteur reçue",
+      "payment": "Paiement partiel enregistré"
+    },
+    "floatStatus": "Créance FAC-2026-0184 régularisée"
+  },
+  "subnav": {
+    "label": "Navigation Recouvrement",
+    "items": {
+      "journey": "Parcours",
+      "overview": "Vue d'ensemble",
+      "workflow": "Automatisation",
+      "timeline": "Historique",
+      "paymentPlan": "Échéanciers",
+      "disputes": "Litiges",
+      "buyer360": "Acheteur 360°",
+      "reporting": "Pilotage"
+    },
+    "demo": "Demander une démo"
+  },
+  "journey": {
+    "eyebrow": "Parcours de recouvrement",
+    "title": "Du premier impayé au règlement, chaque étape est maîtrisée.",
+    "description": "La solution accompagne l'ensemble du cycle de recouvrement, de l'importation des créances jusqu'au rapprochement bancaire.",
+    "steps": [
+      { "title": "Importation", "description": "Import des factures et acheteurs depuis les systèmes existants." },
+      { "title": "Analyse", "description": "Identification des créances échues, aging et priorisation." },
+      { "title": "Relances", "description": "Envoi automatisé des relances par e-mail et SMS." },
+      { "title": "Échange", "description": "Suivi des réponses et interactions avec les acheteurs." },
+      { "title": "Échéancier", "description": "Proposition et suivi des plans de paiement." },
+      { "title": "Litige", "description": "Gestion et résolution des litiges." },
+      { "title": "Paiement", "description": "Enregistrement et suivi des paiements." },
+      { "title": "Clôture", "description": "Rapprochement bancaire et clôture du dossier." }
+    ]
+  },
+  "overview": {
+    "eyebrow": "Gestion centralisée",
+    "title": "Toutes vos créances dans une vision unique.",
+    "description": "Centralisez les informations de vos acheteurs, factures et créances pour offrir à vos équipes une vision complète et fiable.",
+    "items": {
+      "importBuyers": {
+        "title": "Importation des acheteurs",
+        "description": "Synchronisation avec les systèmes existants pour récupérer les acheteurs concernés par des créances."
+      },
+      "importInvoices": {
+        "title": "Importation des factures",
+        "description": "Import automatique des factures impayées depuis les systèmes de facturation ou les applications métiers."
+      },
+      "dueDateTracking": {
+        "title": "Suivi des échéances",
+        "description": "Visualisation claire des factures arrivant à échéance et des factures en retard."
+      },
+      "statusTracking": {
+        "title": "Statuts des créances",
+        "description": "Suivi de chaque créance selon son statut : impayée, partiellement payée, en litige, sous échéancier ou régularisée."
+      },
+      "aging": {
+        "title": "Analyse Aging",
+        "description": "Répartition des créances selon l'anciennété du retard : non échue, 1-30 jours, 31-60 jours, 61-90 jours et +90 jours."
+      }
+    },
+    "statuses": ["Impayée", "Partiellement payée", "En litige", "Sous échéancier", "Régularisée"],
+    "agingCategories": ["Non échue", "1-30 jours", "31-60 jours", "61-90 jours", "+90 jours"],
+    "businessRule": "Les factures couvertes par un échéancier actif ne poursuivent pas le workflow standard de relances automatisées."
+  },
+  "workflow": {
+    "eyebrow": "Automatisation des relances",
+    "title": "La bonne relance, au bon moment, sur le bon canal.",
+    "description": "Configurez des scénarios de recouvrement adaptés à vos règles métier, vos segments d'acheteurs et vos canaux de communication.",
+    "featuresLabel": "Fonctionnalités clés",
+    "scenarios": [
+      { "delay": "J+7", "action": "E-mail de rappel" },
+      { "delay": "J+15", "action": "Nouvelle relance" },
+      { "delay": "J+30", "action": "E-mail + SMS" },
+      { "delay": "Escalade", "action": "Intervention du gestionnaire" },
+      { "delay": "Pré-contentieux", "action": "Mise en demeure" }
+    ],
+    "features": ["E-mails automatisés", "SMS de relance", "Timing configurable", "Modèles personnalisables", "Segmentation des acheteurs", "Statut de recouvrement", "Historique des relances", "Réponses et actions manuelles", "Escalade automatique"]
+  },
+  "timeline": {
+    "eyebrow": "Traçabilité complète",
+    "title": "Chaque action est enregistrée, chaque dossier est traçable.",
+    "description": "L'historique complet des interactions et actions de recouvrement reste disponible pour chaque créance et chaque acheteur.",
+    "events": [
+      { "date": "12/08", "action": "Relance e-mail envoyée" },
+      { "date": "18/08", "action": "Réponse acheteur reçue" },
+      { "date": "19/08", "action": "Litige déclaré" },
+      { "date": "21/08", "action": "Litige traité" },
+      { "date": "22/08", "action": "Échéancier proposé" },
+      { "date": "23/08", "action": "Échéancier validé" },
+      { "date": "30/08", "action": "Première échéance réglée" }
+    ]
+  },
+  "paymentPlan": {
+    "eyebrow": "Gestion des échéanciers",
+    "title": "Transformez une promesse de paiement en échéancier suivi.",
+    "description": "Créez, validez et suivez des plans de paiement flexibles qui s'adaptent à la situation de chaque acheteur.",
+    "scenarioA": {
+      "title": "Nombre de mois",
+      "description": "Définissez le nombre de mois et le système calcule automatiquement les échéances.",
+      "example": "12 000 TND sur 4 mois = 3 000 TND × 4"
+    },
+    "scenarioB": {
+      "title": "Montant fixe par échéance",
+      "description": "Définissez le montant souhaité par échéance et le système détermine le nombre d'échéances.",
+      "example": "12 000 TND à 2 500 TND/mois = 6 échéances"
+    },
+    "features": ["Calcul automatique des échéances", "Gestion des arrondis et centimes", "Suivi des paiements partiels", "Alertes en cas d'impayé", "Validation et confirmation acheteur", "Notifications avant échéance"]
+  },
+  "paymentNotifications": {
+    "eyebrow": "Cycle de notification",
+    "title": "L'acheteur est informé à chaque étape du plan.",
+    "steps": [
+      { "event": "Plan validé", "action": "Confirmation envoyée" },
+      { "event": "Avant échéance", "action": "Rappel automatique" },
+      { "event": "Jour d'échéance", "action": "Suivi du paiement" },
+      { "event": "Paiement manquant", "action": "Alerte déclenchée" },
+      { "event": "Paiement reçu", "action": "Plan mis à jour" },
+      { "event": "Plan terminé", "action": "Clôture" }
+    ]
+  },
+  "disputes": {
+    "eyebrow": "Gestion des litiges",
+    "title": "Séparez le vrai retard de paiement du litige à résoudre.",
+    "description": "Identifiez, documentez et résolvez les litiges tout en maintenant un historique complet des actions de recouvrement associées.",
+    "statuses": ["Ouvert", "En cours", "En attente acheteur", "Résolu"],
+    "fields": {
+      "reason": "Motif du litige",
+      "invoice": "Facture concernée",
+      "buyer": "Acheteur",
+      "amount": "Montant",
+      "manager": "Gestionnaire responsable",
+      "date": "Date de création",
+      "status": "Statut",
+      "history": "Historique",
+      "comments": "Commentaires",
+      "actions": "Actions",
+      "resolution": "Résolution"
+    },
+    "note": "Les actions de recouvrement s'adaptent automatiquement lorsqu'une facture est en cours de litige."
+  },
+  "buyer360": {
+    "eyebrow": "Vision complète",
+    "title": "Un acheteur, toute l'histoire.",
+    "description": "Visualisez l'ensemble de la relation avec un acheteur depuis un seul écran : identité, situation financière, historique et niveau de risque.",
+    "identity": {
+      "title": "Identité",
+      "fields": ["Raison sociale", "Contact", "Coordonnées"]
+    },
+    "financial": {
+      "title": "Situation financière",
+      "fields": ["Montant dû", "Montant échu", "Délai moyen de retard", "Plus ancienne facture impayée"]
+    },
+    "history": {
+      "title": "Historique",
+      "fields": ["Factures", "Paiements", "Relances", "Litiges", "Échéanciers"]
+    },
+    "risk": {
+      "title": "Niveau de risque",
+      "levels": ["Risque faible", "Risque moyen", "Risque élevé"]
+    }
+  },
+  "risk": {
+    "eyebrow": "Aide à la décision",
+    "title": "Priorisez vos actions de recouvrement.",
+    "description": "La solution identifie les acheteurs nécessitant une attention prioritaire selon des critères objectifs issus de l'historique de paiement.",
+    "indicators": [
+      "Retards de paiement répétés",
+      "Montants échus importants",
+      "Engagements de paiement non respectés",
+      "Échéances d'échéancier impayées",
+      "Litiges fréquents",
+      "Délais de paiement en augmentation"
+    ],
+    "note": "L'analyse de risque s'appuie sur des règles métier et l'historique de paiement, pas sur des décisions autonomes."
+  },
+  "preLitigation": {
+    "eyebrow": "Pré-contentieux",
+    "title": "Du recouvrement amiable à la mise en demeure.",
+    "description": "Structurez la transition entre les relances amiables et les démarches pré-contentieuses avec un suivi complet des actions.",
+    "workflow": [
+      { "step": "Relances amiables", "description": "E-mails et SMS de relance" },
+      { "step": "Dernière relance", "description": "Mise en garde formelle" },
+      { "step": "Mise en demeure", "description": "Notification formelle" },
+      { "step": "Suivi pré-contentieux", "description": "Surveillance et escalade" }
+    ],
+    "features": ["Relance finale formelle", "Mise en demeure", "Historique des actions", "Génération de documents", "Suivi des statuts", "Transition vers le contentieux"]
+  },
+  "reporting": {
+    "eyebrow": "Pilotage",
+    "title": "Pilotez votre recouvrement par les chiffres.",
+    "description": "Suivez les indicateurs clés de performance de votre processus de recouvrement depuis un tableau de bord dédié.",
+    "kpis": [
+      { "label": "Créances totales", "value": "248 500 TND" },
+      { "label": "Créances échues", "value": "124 300 TND" },
+      { "label": "Montant récupéré", "value": "87 200 TND" },
+      { "label": "Taux de recouvrement", "value": "70,2%" },
+      { "label": "Échéanciers actifs", "value": "18 dossiers" },
+      { "label": "Litiges ouverts", "value": "7 dossiers" }
+    ],
+    "indicators": ["Créances totales", "Créances échues", "Montant récupéré", "Taux de recouvrement", "Aging", "Montant sous échéancier", "Échéances en retard", "Litiges ouverts", "Dossiers à risque", "Performance des relances"]
+  },
+  "reports": {
+    "eyebrow": "Reporting configurable",
+    "title": "Des rapports adaptés à chaque besoin.",
+    "description": "Générez des rapports détaillés selon vos critères et exportez les résultats au format adapté.",
+    "types": [
+      { "name": "Factures impayées", "description": "Vue détaillée des factures en attente de règlement." },
+      { "name": "Échéanciers", "description": "État des plans de paiement en cours et leur exécution." },
+      { "name": "Litiges", "description": "Litiges ouverts et résolus avec leur historique." },
+      { "name": "Recouvrement", "description": "Montants recouvrés sur une période sélectionnée." },
+      { "name": "Aging", "description": "Répartition des créances selon l'anciennété du retard." }
+    ],
+    "formats": ["Excel", "PDF"]
+  },
+  "integrations": {
+    "eyebrow": "Intégrations",
+    "title": "Connectée à votre système d'information.",
+    "description": "La solution s'intègre aux systèmes existants pour assurer une circulation fiable des données entre la facturation, les banques et les outils de communication.",
+    "categories": {
+      "invoicing": {
+        "title": "Facturation / ERP",
+        "description": "Import des acheteurs, factures, échéances et paiements depuis les systèmes existants."
+      },
+      "banking": {
+        "title": "Systèmes bancaires",
+        "description": "Récupération et synchronisation des informations de paiement lorsque c'est supporté."
+      },
+      "reconciliation": {
+        "title": "Rapprochement bancaire",
+        "description": "Identification des paiements associés aux créances pour accélérer la clôture."
+      },
+      "email": {
+        "title": "E-mail",
+        "description": "Envoi des communications de recouvrement aux acheteurs."
+      },
+      "sms": {
+        "title": "SMS",
+        "description": "Relances par SMS pour les rappels de paiement."
+      },
+      "apps": {
+        "title": "Applications métier",
+        "description": "Intégration via l'architecture supportée par la solution."
+      }
+    }
+  },
+  "security": {
+    "eyebrow": "Sécurité et contrôle d'accès",
+    "title": "Des données financières protégées.",
+    "description": "La solution intègre des contrôles d'accès, des pistes d'audit et des mesures de protection adaptées aux informations financières sensibles.",
+    "items": [
+      { "title": "Accès par rôle", "description": "Gestionnaire de recouvrement, administrateur, direction financière : chaque rôle voit uniquement ce qui lui est utile." },
+      { "title": "Contrôle d'accès", "description": "Accès administrateur, accès gestionnaire et contrôle strict des informations financières." },
+      { "title": "Traçabilité", "description": "Historique complet des actions, modifications et interventions sur chaque dossier." },
+      { "title": "Intégrations sécurisées", "description": "Connexion sécurisée aux systèmes de facturation, bancaires et de communication." }
+    ],
+    "note": "Conformité réglementaire prise en compte lors de la conception. Les certifications spécifiques sont présentées uniquement lorsqu'elles sont confirmées par le projet."
+  },
+  "customWorkflow": {
+    "eyebrow": "Flexibilité métier",
+    "title": "Un processus de recouvrement adapté à votre organisation.",
+    "description": "Configurez les étapes et les règles de relance selon vos besoins métier, vos segments d'acheteurs et vos canaux de communication.",
+    "example": ["Échéance", "Relance douce", "Relance renforcée", "Appel gestionnaire", "Proposition échéancier", "Dernière relance", "Pré-contentieux"]
+  },
+  "buyerPortal": {
+    "eyebrow": "Portail acheteur (optionnel)",
+    "title": "Un espace dédié pour vos acheteurs.",
+    "description": "Offrez à vos acheteurs un portail pour consulter leurs factures, échéanciers et historique de paiement.",
+    "features": ["Consultation des factures", "Consultation des soldes", "Visualisation de l'échéancier", "Historique des paiements", "Échange d'informations", "Consultation des documents"]
+  },
+  "useCases": {
+    "eyebrow": "Cas d'usage",
+    "title": "Deux scénarios concrets de recouvrement.",
+    "case1": {
+      "title": "Rééchelonner plusieurs factures sur plusieurs mois",
+      "steps": [
+        "3 factures échues",
+        "Sélection acheteur",
+        "Sélection factures",
+        "Choix : 6 mois",
+        "Calcul automatique",
+        "Validation",
+        "Communication acheteur",
+        "Suivi automatique"
+      ]
+    },
+    "case2": {
+      "title": "Définir un montant fixe par échéance",
+      "total": "Total impayé : 15 000 TND",
+      "amount": "Échéance souhaitée : 2 500 TND",
+      "result": "6 échéances",
+      "steps": [
+        "Total impayé : 15 000 TND",
+        "Échéance souhaitée : 2 500 TND",
+        "Calcul automatique",
+        "6 échéances",
+        "Validation",
+        "Notifications",
+        "Alerte en cas d'impayé"
+      ]
+    }
+  },
+  "beforeAfter": {
+    "eyebrow": "Avant / Après",
+    "title": "Le recouvrement change de dimension.",
+    "before": {
+      "title": "Avant",
+      "items": ["Fichiers Excel", "Appels manuels", "Relances oubliées", "Informations dispersées", "Faible visibilité", "Engagements difficiles à suivre", "Litiges mélangés aux impayés", "Reporting manuel"]
+    },
+    "after": {
+      "title": "Avec la solution",
+      "items": ["Créances centralisées", "Relances structurées", "Échéanciers suivis", "Historique complet", "Priorisation des dossiers", "Litiges identifiés", "Alertes", "Tableaux de bord"]
+    }
+  },
+  "cta": {
+    "eyebrow": "Passer à l'action",
+    "title": "Structurez votre recouvrement. Accélérez vos encaissements.",
+    "description": "Découvrez comment la solution peut s'intégrer à votre environnement existant et structurer l'ensemble de votre processus de recouvrement.",
+    "primary": "Demander une démonstration",
+    "secondary": "Nous contacter"
+  }
+}

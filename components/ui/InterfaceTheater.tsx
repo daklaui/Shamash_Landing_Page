@@ -13,6 +13,9 @@ const interfaceMetrics = {
   "erp-dashboard": {
     metric: "38k",
   },
+  "collection-management": {
+    metric: "87%",
+  },
   "document-workflow": {
     metric: "6m",
   },

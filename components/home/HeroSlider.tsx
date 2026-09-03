@@ -15,6 +15,7 @@ const EASE_IN = [0.7, 0, 0.84, 0] as const;
 const imageScaleBySlide: Record<string, string> = {
   xpertfactor: "scale-[1.07]",
   factorix: "scale-[1.07]",
+  "recouvrement-creances": "scale-[1.07]",
   "document-management": "scale-[1.07]",
   "ai-automation": "scale-[1.12]",
   "web-mobile-development": "scale-[1.04]"

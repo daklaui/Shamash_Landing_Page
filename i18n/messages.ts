@@ -39,6 +39,12 @@ const namespaceLoaders = {
     ar: () => import("@/locales/ar/factorix.json"),
     tn: () => import("@/locales/tn/factorix.json")
   },
+  recouvrementCreances: {
+    fr: () => import("@/locales/fr/recouvrementCreances.json"),
+    en: () => import("@/locales/en/recouvrementCreances.json"),
+    ar: () => import("@/locales/ar/recouvrementCreances.json"),
+    tn: () => import("@/locales/tn/recouvrementCreances.json")
+  },
   about: {
     fr: () => import("@/locales/fr/about.json"),
     en: () => import("@/locales/en/about.json"),
@@ -82,7 +88,7 @@ function mergeFallback(base: MessageObject, translated: MessageObject): MessageO
 export async function loadMessages(locale: AppLocale) {
   const entries = await Promise.all(
     Object.entries(namespaceLoaders).map(async ([namespace, loaders]) => {
-      const fallbackLoader = namespace === "factorix" && locale === "tn" ? loaders.ar : loaders.fr;
+      const fallbackLoader = (namespace === "factorix" || namespace === "recouvrementCreances") && locale === "tn" ? loaders.ar : loaders.fr;
       const [fallbackModule, localeModule] = await Promise.all([fallbackLoader(), loaders[locale]()]);
       return [
         namespace,
