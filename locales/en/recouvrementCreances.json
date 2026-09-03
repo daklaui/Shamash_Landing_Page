@@ -88,6 +88,17 @@
     "agingCategories": ["Not due", "1-30 days", "31-60 days", "61-90 days", "90+ days"],
     "businessRule": "Invoices covered by an active payment plan do not continue through the standard automated reminder workflow."
   },
+  "intelligence": {
+    "eyebrow": "Applied artificial intelligence",
+    "title": "Move to intelligent collections",
+    "items": [
+      { "title": "Predictive payment scoring", "description": "AI evaluates the likelihood of payment for each receivable, helping teams focus on the most promising or most urgent cases." },
+      { "title": "AI-personalized reminders", "description": "Generate messages tailored to the debtor profile, case history, amount due and level of urgency." },
+      { "title": "AI assistant for collection managers", "description": "Automatically summarize cases, analyze conversations and provide quick access to essential information to save time." },
+      { "title": "Next-best-action recommendations", "description": "AI suggests the best channel, timing and type of reminder to maximize the likelihood of payment." },
+      { "title": "Intelligent cash collection forecasting", "description": "Analyze historical data and payment behavior to estimate the amounts likely to be recovered over the coming weeks or months." }
+    ]
+  },
   "workflow": {
     "eyebrow": "Reminder Automation",
     "title": "The right reminder, at the right time, on the right channel.",

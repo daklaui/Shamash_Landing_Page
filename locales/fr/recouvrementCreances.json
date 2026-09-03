@@ -88,6 +88,17 @@
     "agingCategories": ["Non échue", "1-30 jours", "31-60 jours", "61-90 jours", "+90 jours"],
     "businessRule": "Les factures couvertes par un échéancier actif ne poursuivent pas le workflow standard de relances automatisées."
   },
+  "intelligence": {
+    "eyebrow": "Intelligence artificielle appliquée",
+    "title": "Passez au recouvrement intelligent",
+    "items": [
+      { "title": "Score prédictif de paiement", "description": "L’IA évalue la probabilité de règlement de chaque créance pour aider les équipes à se concentrer sur les dossiers les plus prometteurs ou les plus urgents." },
+      { "title": "Relances personnalisées par IA", "description": "Génération de messages adaptés au profil du débiteur, à l’historique du dossier, au montant dû et au niveau d’urgence." },
+      { "title": "Assistant IA pour les gestionnaires", "description": "Résumé automatique des dossiers, analyse des échanges et accès rapide aux informations essentielles pour gagner du temps." },
+      { "title": "Recommandation de la prochaine meilleure action", "description": "L’IA suggère le meilleur canal, le meilleur moment et le type de relance à effectuer pour maximiser les chances de paiement." },
+      { "title": "Prévision intelligente des encaissements", "description": "Analyse des données historiques et des comportements de paiement pour estimer les montants susceptibles d’être récupérés dans les prochaines semaines ou prochains mois." }
+    ]
+  },
   "workflow": {
     "eyebrow": "Automatisation des relances",
     "title": "La bonne relance, au bon moment, sur le bon canal.",

@@ -5,15 +5,20 @@ import {
   ArrowDown,
   BellRing,
   BookOpenCheck,
+  BrainCircuit,
   Building2,
   CalendarClock,
+  ChartSpline,
   CheckCircle2,
   ChevronRight,
   Clock3,
   CircleDollarSign,
   Fingerprint,
   LockKeyhole,
+  MessageSquareText,
+  Route,
   ShieldCheck,
+  Sparkles,
   TrendingUp,
   WalletCards
 } from "lucide-react";
@@ -160,6 +165,7 @@ export function RecouvrementPage() {
   const overviewItems = rawMessage<Record<string, { title: string; description: string }>>(t, "overview.items");
   const overviewStatuses = rawMessage<string[]>(t, "overview.statuses");
   const overviewAging = rawMessage<string[]>(t, "overview.agingCategories");
+  const intelligenceItems = rawMessage<{ title: string; description: string }[]>(t, "intelligence.items");
   const workflowScenarios = rawMessage<{ delay: string; action: string }[]>(t, "workflow.scenarios");
   const workflowFeatures = rawMessage<string[]>(t, "workflow.features");
   const timelineEvents = rawMessage<{ date: string; action: string }[]>(t, "timeline.events");
@@ -215,6 +221,42 @@ export function RecouvrementPage() {
             <div className="rounded-xl border border-slate-200 bg-neutral-page p-5"><p className="text-xs font-black uppercase tracking-[0.12em] text-shamash-indigo">Aging</p><div className="mt-3 flex flex-wrap gap-2">{overviewAging.map((cat) => <span key={cat} className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-xs font-bold text-slate-700">{cat}</span>)}</div></div>
           </div>
           <div className="mt-5 flex flex-wrap gap-2">{overviewStatuses.map((status) => <span key={status} className="rounded-full border border-shamash-blue/20 bg-shamash-blue/5 px-3 py-2 text-xs font-bold text-shamash-indigo">{status}</span>)}</div>
+        </div>
+      </MotionSection>
+
+      <MotionSection id="intelligence" className="section-standard relative isolate overflow-hidden bg-[linear-gradient(145deg,#f7fbff_0%,#f2f4fb_58%,#ffffff_100%)]">
+        <div aria-hidden="true" className="absolute -right-32 top-10 -z-10 size-80 rounded-full bg-shamash-blue/10 blur-3xl" />
+        <div aria-hidden="true" className="absolute -left-24 bottom-0 -z-10 size-72 rounded-full bg-shamash-indigo/10 blur-3xl" />
+        <div className="container-shell">
+          <SectionHeading eyebrow={t("intelligence.eyebrow")} title={t("intelligence.title")} center />
+          <div className="mt-10 grid gap-4 lg:grid-cols-12">
+            {intelligenceItems.map((item, index) => {
+              const icons = [BrainCircuit, MessageSquareText, Sparkles, Route, ChartSpline];
+              const Icon = icons[index];
+              const featured = index === 0;
+              return (
+                <MotionItem
+                  key={item.title}
+                  className={cn(
+                    "group relative overflow-hidden rounded-2xl border p-6 transition duration-snappy ease-premium hover:-translate-y-1 hover:shadow-panel sm:p-7",
+                    index === 0 ? "lg:col-span-7" : index === 1 ? "lg:col-span-5" : "lg:col-span-4",
+                    featured ? "border-shamash-navy bg-shamash-navy text-white shadow-premium" : "border-slate-200 bg-white"
+                  )}
+                >
+                  {featured ? <div aria-hidden="true" className="absolute -right-16 -top-16 size-48 rounded-full bg-shamash-blue/20 blur-2xl" /> : null}
+                  <div className="relative flex items-start justify-between gap-5">
+                    <span className={cn("grid size-12 shrink-0 place-items-center rounded-xl", featured ? "bg-white/10 text-shamash-blue" : "bg-shamash-blue/10 text-shamash-indigo")}>
+                      <Icon aria-hidden="true" className="size-6" />
+                    </span>
+                    <span className={cn("text-xs font-black tracking-[0.12em]", featured ? "text-white/40" : "text-slate-300")}>0{index + 1}</span>
+                  </div>
+                  <h3 className={cn("relative mt-6 text-xl font-black leading-tight", featured ? "text-white" : "text-shamash-navy")}>{item.title}</h3>
+                  <p className={cn("relative mt-3 text-sm font-semibold leading-6", featured ? "text-white/68" : "text-slate-600")}>{item.description}</p>
+                  <div aria-hidden="true" className={cn("relative mt-6 h-1 w-12 rounded-full transition-all duration-snappy group-hover:w-20", featured ? "bg-shamash-gold" : "bg-shamash-blue")} />
+                </MotionItem>
+              );
+            })}
+          </div>
         </div>
       </MotionSection>
 
