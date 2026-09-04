@@ -184,6 +184,10 @@ export function useLocalizedNavigation() {
   const navigationServices = services.filter((item) => item.id !== "ai-automation");
   const solutionNavigationLabel = (item: LocalizedSolution) =>
     item.id === "ai-automation" ? common("navigation.automationWorkflows") : item.name;
+  const solutionNavigationDescription = (item: LocalizedSolution) =>
+    item.id === "recouvrement-creances"
+      ? common("navigation.recouvrementDescription")
+      : item.summary;
 
   const main: NavigationItem[] = [
     {
@@ -195,7 +199,7 @@ export function useLocalizedNavigation() {
         label: solutionNavigationLabel(item),
         href: item.href,
         eyebrow: item.audience,
-        description: item.summary,
+        description: solutionNavigationDescription(item),
         icon: { kind: "solution", id: item.id }
       }))
     },

@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, MapPin, Phone } from "lucide-react";
+import { CalendarClock, Mail, MapPin, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { useLocalizedNavigation } from "@/data/localized";
@@ -30,11 +30,12 @@ export function SiteFooter() {
           </div>
         </div>
 
-        <div className="mt-12 grid gap-4 border-t border-white/15 pt-8 text-sm leading-6 text-white/70 md:grid-cols-3">
+        <address className="mt-12 grid gap-4 border-t border-white/15 pt-8 text-sm leading-6 text-white/70 not-italic sm:grid-cols-2 lg:grid-cols-4">
           <p className="flex items-center gap-2"><MapPin aria-hidden="true" className="h-4 w-4 text-shamash-blue" />{t("contactInfo.location")}</p>
-          <p className="flex items-center gap-2"><Mail aria-hidden="true" className="h-4 w-4 text-shamash-blue" />{t("contactInfo.email")}</p>
-          <p className="flex items-center gap-2"><Phone aria-hidden="true" className="h-4 w-4 text-shamash-blue" />{t("contactInfo.availability")}</p>
-        </div>
+          <a href={`mailto:${t("contactInfo.email")}`} className="flex items-center gap-2 rounded-sm transition duration-snappy ease-premium hover:text-white focus-visible:text-white"><Mail aria-hidden="true" className="h-4 w-4 shrink-0 text-shamash-blue" />{t("contactInfo.email")}</a>
+          <a href="tel:+21698675013" className="flex items-center gap-2 rounded-sm transition duration-snappy ease-premium hover:text-white focus-visible:text-white"><Phone aria-hidden="true" className="h-4 w-4 shrink-0 text-shamash-blue" />{t("contactInfo.phone")}</a>
+          <p className="flex items-center gap-2"><CalendarClock aria-hidden="true" className="h-4 w-4 shrink-0 text-shamash-blue" />{t("contactInfo.availability")}</p>
+        </address>
       </div>
     </footer>
   );

@@ -11,12 +11,13 @@
     "strategicCapability": "Expertise stratégique", "consultation": "Consultation",
     "aboutDescription": "Expertise en logiciels d’entreprise, FinTech, automatisation IA, cloud et technologies managées.",
     "contactDescription": "Réservez une démo, demandez une consultation ou échangez sur un projet de transformation.",
+    "recouvrementDescription": "Centralisez les créances, automatisez les relances et exploitez l’IA pour prioriser les dossiers, personnaliser les suivis et prévoir les encaissements.",
     "viewAll": "Voir toutes les rubriques {section}"
   },
   "actions": {"bookDemo": "Réserver une démo", "requestConsultation": "Demander une consultation", "viewServices": "Voir les services", "viewSupportingServices": "Voir les services associés", "learnMore": "En savoir plus", "contactUs": "Nous contacter"},
   "language": {"selectorLabel": "Choisir la langue", "currentLabel": "Langue actuelle : {language}", "switchTo": "Passer en {language}"},
   "footer": {"description": "Shamash IT transforme des opérations métier complexes en systèmes numériques sécurisés, connectés et intelligents pour les organisations en Tunisie, en Afrique et en Europe.", "solutions": "Nos solutions", "services": "Nos services", "company": "Entreprise"},
-  "contactInfo": {"location": "Tunisie, au service de l’Afrique et de l’Europe", "email": "contact@shamash-it.com", "availability": "Démo et consultation sur demande"},
+  "contactInfo": {"location": "Tunisie, au service de l’Afrique et de l’Europe", "email": "contact@shamash-it.com", "phone": "+216 98 675 013", "availability": "Démo et consultation sur demande"},
   "faq": {"items": {
     "scope": {"question": "Shamash IT crée-t-elle uniquement des sites web ?", "answer": "Non. Shamash IT se concentre sur les logiciels d’entreprise, les plateformes FinTech, les ERP, la gestion documentaire, l’automatisation IA, l’infrastructure cloud, la cybersécurité et le support managé. Le développement web et mobile fait partie d’une expertise d’entreprise plus large."},
     "integration": {"question": "Shamash IT peut-elle travailler avec des systèmes existants ?", "answer": "Oui. L’intégration est au cœur de notre modèle de réalisation. Les solutions peuvent se connecter aux ERP et aux systèmes comptables, documentaires, d’identité, bancaires, de reporting et cloud au moyen d’API sécurisées et de workflows maîtrisés."},

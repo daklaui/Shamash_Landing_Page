@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronDown, ChevronRight, X } from "lucide-react";
+import { ChevronDown, ChevronRight, Mail, Phone, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState } from "react";
 import { Link } from "@/i18n/navigation";
@@ -102,6 +102,26 @@ export function MobileNav({ open, onClose }: { open: boolean; onClose: () => voi
           <div className="mt-8 grid gap-3 border-t border-white/10 pt-6">
             <Button href="/contact" onClick={onClose} className="w-full !min-h-12 text-sm">{t("actions.bookDemo")}</Button>
             <LanguageSwitcher inverse placement="top" className="w-full" />
+
+            <address className="mt-3 grid gap-3 border-t border-white/10 pt-5 text-sm not-italic">
+              <p className="text-xs font-black uppercase tracking-[0.15em] text-shamash-blue">
+                {t("navigation.contact")}
+              </p>
+              <a
+                href={`mailto:${t("contactInfo.email")}`}
+                className="flex min-h-11 items-center gap-3 rounded-lg border border-white/12 bg-white/6 px-3.5 text-white/78 transition duration-snappy ease-premium hover:border-shamash-blue/50 hover:bg-white/10 hover:text-white focus-visible:border-shamash-blue/60 focus-visible:bg-white/10 focus-visible:text-white"
+              >
+                <Mail aria-hidden="true" className="h-4 w-4 shrink-0 text-shamash-blue" />
+                <span className="break-all">{t("contactInfo.email")}</span>
+              </a>
+              <a
+                href="tel:+21698675013"
+                className="flex min-h-11 items-center gap-3 rounded-lg border border-white/12 bg-white/6 px-3.5 text-white/78 transition duration-snappy ease-premium hover:border-shamash-blue/50 hover:bg-white/10 hover:text-white focus-visible:border-shamash-blue/60 focus-visible:bg-white/10 focus-visible:text-white"
+              >
+                <Phone aria-hidden="true" className="h-4 w-4 shrink-0 text-shamash-blue" />
+                <span>{t("contactInfo.phone")}</span>
+              </a>
+            </address>
           </div>
         </div>
       </div>

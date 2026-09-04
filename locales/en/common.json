@@ -24,6 +24,7 @@
     "consultation": "Consultation",
     "aboutDescription": "Enterprise software, FinTech, AI automation, cloud, and managed technology expertise.",
     "contactDescription": "Book a demo, request a consultation, or discuss a transformation project.",
+    "recouvrementDescription": "Centralize receivables, automate reminders, and use AI to prioritize cases, personalize follow-ups, and forecast collections.",
     "viewAll": "View all {section}"
   },
   "actions": {
@@ -48,6 +49,7 @@
   "contactInfo": {
     "location": "Tunisia, serving Africa and Europe",
     "email": "contact@shamash-it.com",
+    "phone": "+216 98 675 013",
     "availability": "Demo and consultation by request"
   },
   "faq": {
