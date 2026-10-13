@@ -1,11 +1,12 @@
 import type { MetadataRoute } from "next";
+import { siteIndexable, siteOrigin } from "@/lib/site";
 
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: {
+    rules: siteIndexable ? {
       userAgent: "*",
       allow: "/"
-    },
-    sitemap: "https://www.shamash-it.com/sitemap.xml"
+    } : { userAgent: "*", disallow: "/" },
+    sitemap: siteIndexable ? `${siteOrigin}/sitemap.xml` : undefined
   };
 }

@@ -148,7 +148,7 @@ function RecouvrementHero({ t }: { t: ReturnType<typeof useTranslations<"recouvr
           </h1>
           <p className="mt-4 max-w-[61ch] text-[clamp(0.98rem,1.15vw,1.15rem)] font-medium leading-7 text-slate-600">{t("hero.description")}</p>
           <div className="mt-6 flex flex-wrap gap-3">
-            <Button href="/contact">{t("hero.primaryCta")}</Button>
+            <Button href="/contact?interest=recouvrement">{t("hero.primaryCta")}</Button>
             <Button href="#journey" variant="secondary" showIcon={false}>{t("hero.secondaryCta")} <ArrowDown aria-hidden="true" className="size-4" /></Button>
           </div>
           <p className="mt-5 border-s-2 border-shamash-blue ps-3 text-sm font-bold leading-6 text-slate-500">{t("hero.reassurance")}</p>
@@ -197,7 +197,7 @@ export function RecouvrementPage() {
         <div className="container-shell flex items-center justify-between gap-3 py-2.5">
           <span className="text-sm font-black text-shamash-navy">Recouvrement</span>
           <div className="flex items-center gap-0.5">{navIds.map((id) => <a key={id} href={`#${id}`} className="rounded-full px-2.5 py-2 text-[0.68rem] font-black text-slate-600 transition hover:bg-shamash-blue/10 hover:text-shamash-navy min-[1440px]:px-3 min-[1440px]:text-xs">{t(`subnav.items.${id}`)}</a>)}</div>
-          <Link href="/contact" className="rounded-full bg-[#0865d8] px-4 py-2 text-xs font-black text-white">{t("subnav.demo")}</Link>
+          <Link href="/contact?interest=recouvrement" className="rounded-full bg-[#0865d8] px-4 py-2 text-xs font-black text-white">{t("subnav.demo")}</Link>
         </div>
       </nav>
 

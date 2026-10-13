@@ -11,7 +11,7 @@ import {
   WalletCards
 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
-import { MotionItem, MotionSection } from "@/components/ui/Motion";
+import { MotionItem, MotionListItem, MotionSection } from "@/components/ui/Motion";
 import { ProductLogo } from "@/components/ui/ProductLogo";
 import { cn } from "@/lib/cn";
 import { ModuleExplorer, PlatformExplorer } from "./ProductExplorers";
@@ -38,7 +38,7 @@ export function XpertHero({ content }: { content: Hero }) {
           <h1 className="mt-4 max-w-[13ch] text-[clamp(2.5rem,5.1vw,5.3rem)] font-black leading-[0.98] tracking-[-0.045em] text-shamash-navy">{content.title}</h1>
           <p className="mt-6 max-w-xl text-base font-medium leading-8 text-neutral-text sm:text-lg">{content.description}</p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <Button href="/contact">{content.primary}</Button>
+            <Button href="/contact?interest=xpertFactor">{content.primary}</Button>
             <Button href="#xpert-lifecycle" variant="secondary">{content.secondary}</Button>
           </div>
           <div className="mt-7 flex items-center gap-3 text-sm font-bold text-shamash-navy">
@@ -133,10 +133,10 @@ export function LifecycleSection({ content, ariaLabel }: { content: Lifecycle; a
           {content.items.map((item, index) => {
             const Icon = lifecycleIcons[index];
             return (
-              <MotionItem as="article" key={item.title} className="xf-lifecycle__item">
+              <MotionListItem key={item.title} className="xf-lifecycle__item">
                 <div className="xf-lifecycle__index"><span>{String(index + 1).padStart(2, "0")}</span><Icon aria-hidden="true" /></div>
                 <div><h3>{item.title}</h3><p>{item.detail}</p></div>
-              </MotionItem>
+              </MotionListItem>
             );
           })}
         </ol>

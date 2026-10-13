@@ -21,4 +21,6 @@
     "web-mobile-architecture": {"title": "تسليم التطبيقات", "leftTitle": "تسليم المنتج", "rightTitle": "مسار إصدار Cloud", "metricLabel": "خدمات تحت المراقبة", "line": "خدمات تحت المراقبة", "rows": ["تم اختبار API", "تمت مزامنة الهاتف", "تمت مراقبة الإصدار"], "chips": ["Web", "Mobile", "DevOps"]}
   }},
   "notFound": {"eyebrow": "الصفحة غير موجودة", "title": "هذه الصفحة غير متاحة.", "description": "قد يكون العنوان تغير أو لم تعد الصفحة موجودة.", "homeAction": "العودة إلى الرئيسية"}
+,
+  "accessibility": {"skipToMain":"انتقل إلى المحتوى الرئيسي","pauseCarousel":"إيقاف العرض التلقائي","resumeCarousel":"استئناف العرض التلقائي","motionDisabled":"العرض التلقائي معطل وفق تفضيلات الحركة"}
 }

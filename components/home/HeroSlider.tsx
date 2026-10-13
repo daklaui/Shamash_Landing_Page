@@ -1,11 +1,14 @@
 "use client";
 
-import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
+import { AnimatePresence, motion, useIsPresent, useMotionValue } from "framer-motion";
+import { useReducedMotion } from "@/lib/useReducedMotion";
+import type { HTMLMotionProps } from "framer-motion";
 import Image from "next/image";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { useLocalizedHeroSlides } from "@/data/localized";
 import { Button } from "@/components/ui/Button";
+import { CarouselToggle } from "@/components/ui/CarouselToggle";
 
 const AUTOPLAY_MS = 7200;
 const RESUME_AFTER_MS = 3200;
@@ -31,22 +34,25 @@ export function HeroSlider() {
   const [hoverPaused, setHoverPaused] = useState(false);
   const [focusPaused, setFocusPaused] = useState(false);
   const [interactionPaused, setInteractionPaused] = useState(false);
-  const [progress, setProgress] = useState(0);
+  const progress = useMotionValue(0);
+  const [manualPaused, setManualPaused] = useState(false);
+  const indicatorFocus = useRef(false);
+  const sectionRef = useRef<HTMLElement>(null);
   const touchStart = useRef<number | null>(null);
   const elapsedRef = useRef(0);
   const lastFrameRef = useRef<number | null>(null);
   const resumeTimerRef = useRef<number | null>(null);
   const activeSlide = heroSlides[activeIndex];
   const reducedMotion = Boolean(useReducedMotion());
-  const isPaused = pageHidden || hoverPaused || focusPaused || interactionPaused || reducedMotion;
+  const isPaused = manualPaused || pageHidden || hoverPaused || focusPaused || interactionPaused || reducedMotion;
   const isAutoplaying = !isPaused;
   const motionDirection = locale === "ar" ? -slideDirection : slideDirection;
 
   const resetAutoplayClock = useCallback(() => {
     elapsedRef.current = 0;
     lastFrameRef.current = null;
-    setProgress(0);
-  }, []);
+    progress.set(0);
+  }, [progress]);
 
   const holdAutoplay = useCallback((delay = RESUME_AFTER_MS) => {
     setInteractionPaused(true);
@@ -65,6 +71,7 @@ export function HeroSlider() {
       if (index === activeIndex) {
         return;
       }
+      indicatorFocus.current = true;
       resetAutoplayClock();
       setSlideDirection(index > activeIndex ? 1 : -1);
       setActiveIndex(index);
@@ -108,7 +115,7 @@ export function HeroSlider() {
         setSlideDirection(1);
         setActiveIndex((current) => (current + 1) % heroSlides.length);
       } else {
-        setProgress(elapsedRef.current / AUTOPLAY_MS);
+        progress.set(elapsedRef.current / AUTOPLAY_MS);
       }
 
       frame = window.requestAnimationFrame(tick);
@@ -117,7 +124,15 @@ export function HeroSlider() {
     frame = window.requestAnimationFrame(tick);
 
     return () => window.cancelAnimationFrame(frame);
-  }, [heroSlides.length, isAutoplaying, resetAutoplayClock]);
+  }, [heroSlides.length, isAutoplaying, progress, resetAutoplayClock]);
+
+  useEffect(() => {
+    if (indicatorFocus.current) {
+      const target = Array.from(sectionRef.current?.querySelectorAll<HTMLButtonElement>("button[aria-current='true']") || []).find(button => !button.closest("[inert]"));
+      target?.focus({ preventScroll: true });
+      indicatorFocus.current = false;
+    }
+  }, [activeIndex]);
 
   useEffect(() => {
     const handleVisibility = () => setPageHidden(document.hidden);
@@ -196,6 +211,7 @@ export function HeroSlider() {
 
   return (
     <section
+      ref={sectionRef}
       aria-roledescription="carousel"
       aria-label={t("hero.regionLabel")}
       className="relative isolate overflow-hidden bg-white"
@@ -205,16 +221,20 @@ export function HeroSlider() {
         holdAutoplay(2200);
       }}
       onFocusCapture={() => setFocusPaused(true)}
-      onBlurCapture={() => {
+      onBlurCapture={(event) => {
+        if (event.currentTarget.contains(event.relatedTarget)) return;
         setFocusPaused(false);
         holdAutoplay(2200);
       }}
       onKeyDown={(event) => {
+        if (!(event.target instanceof Element) || !event.target.closest("[data-hero-progress]")) return;
         if (event.key === "ArrowRight") {
-          next();
+          event.preventDefault();
+          goToSlide((activeIndex + (locale === "ar" ? -1 : 1) + heroSlides.length) % heroSlides.length);
         }
         if (event.key === "ArrowLeft") {
-          previous();
+          event.preventDefault();
+          goToSlide((activeIndex + (locale === "ar" ? 1 : -1) + heroSlides.length) % heroSlides.length);
         }
       }}
       onTouchStart={(event) => {
@@ -226,7 +246,7 @@ export function HeroSlider() {
         }
         const delta = touchStart.current - (event.changedTouches[0]?.clientX ?? touchStart.current);
         if (Math.abs(delta) > 40) {
-          if (delta > 0) {
+          if ((delta > 0) !== (locale === "ar")) {
             next();
           } else {
             previous();
@@ -243,14 +263,14 @@ export function HeroSlider() {
       <div className="hero-slider-shell">
         <div className="hero-slider-copy">
           <AnimatePresence initial={false} custom={motionDirection} mode="popLayout">
-            <motion.div
+            <SlideContent
               key={activeSlide.id}
               custom={motionDirection}
               variants={contentVariants}
               initial="initial"
               animate="animate"
               exit="exit"
-              className="absolute inset-0 flex flex-col justify-center"
+              className="relative flex min-h-[inherit] flex-col justify-center"
             >
               <motion.h1
                 variants={itemVariants}
@@ -298,34 +318,34 @@ export function HeroSlider() {
                       aria-label={t("hero.showSlide", { title: slide.title })}
                       aria-current={isActive ? "true" : undefined}
                       onClick={() => goToSlide(index)}
-                      className="group h-4 flex-1 rounded-full p-1 focus-visible:outline-shamash-blue"
+                      className="group h-8 flex-1 rounded-full p-1 focus-visible:outline-shamash-blue"
                     >
                       <span className="block h-2 overflow-hidden rounded-full bg-slate-200/90 transition duration-snappy ease-premium group-hover:bg-slate-300/90">
                         <motion.span
                           className="block h-full origin-left rounded-full bg-gradient-to-r from-shamash-blue to-shamash-indigo"
-                          animate={{ scaleX: targetScale }}
-                          transition={{ duration: 0.28, ease: EASE_OUT }}
+                          style={{ scaleX: targetScale }}
                         />
                       </span>
                       <span className="sr-only">{slide.title}</span>
                     </button>
                   );
                 })}
-                <p className="sr-only" aria-live="polite">
+                <CarouselToggle paused={manualPaused} disabled={reducedMotion} onToggle={() => setManualPaused(current => !current)} />
+                <p className="sr-only" aria-live={isPaused ? "polite" : "off"}>
                   {indicatorLabel}
                 </p>
               </motion.div>
-            </motion.div>
+            </SlideContent>
           </AnimatePresence>
         </div>
 
-        <div className="hero-slider-visual-stage" aria-live="polite">
+        <div className="hero-slider-visual-stage">
           <div aria-hidden="true" className="absolute inset-x-6 top-1/2 h-[58%] -translate-y-1/2 rounded-full bg-shamash-blue/12 blur-3xl" />
           <div aria-hidden="true" className="absolute bottom-20 right-6 h-56 w-72 rounded-full bg-shamash-indigo/12 blur-3xl" />
           <div aria-hidden="true" className="absolute left-8 top-20 h-44 w-64 rounded-full bg-shamash-gold/10 blur-3xl" />
 
           <AnimatePresence initial={false} custom={motionDirection}>
-            <motion.div
+            <SlideContent
               key={activeSlide.id}
               custom={motionDirection}
               variants={visualVariants}
@@ -340,17 +360,22 @@ export function HeroSlider() {
                     src={activeSlide.image.src}
                     alt={activeSlide.image.alt}
                     fill
-                    sizes="(max-width: 1023px) 94vw, (max-width: 1280px) 62vw, 1120px"
+                    sizes="(max-width: 1023px) 94vw, (max-width: 1365px) 64vw, (max-width: 1840px) 66vw, 1216px"
                     className={`object-contain drop-shadow-[0_36px_58px_rgba(36,40,80,0.18)] ${imageScaleBySlide[activeSlide.id] ?? "scale-100"}`}
                     preload={activeIndex === 0}
                   />
                 </div>
               </div>
-            </motion.div>
+            </SlideContent>
           </AnimatePresence>
         </div>
 
       </div>
     </section>
   );
+}
+
+function SlideContent(props: HTMLMotionProps<"div">) {
+  const present = useIsPresent();
+  return <motion.div {...props} aria-hidden={!present || undefined} inert={!present || undefined} />;
 }

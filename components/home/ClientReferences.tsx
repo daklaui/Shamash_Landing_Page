@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, useReducedMotion } from "framer-motion";
+import { motion } from "framer-motion";
+import { useReducedMotion } from "@/lib/useReducedMotion";
 import type { Variants } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
@@ -8,6 +9,7 @@ import type { PointerEvent } from "react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { referenceLogos } from "@/data/references";
+import { CarouselToggle } from "@/components/ui/CarouselToggle";
 
 const REVEAL_EASE = [0.16, 1, 0.3, 1] as const;
 
@@ -55,6 +57,7 @@ export function ClientReferences() {
   const viewportRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
+  const [manualPaused, setManualPaused] = useState(false);
   const [viewportWidth, setViewportWidth] = useState(0);
   const dragStartRef = useRef<number | null>(null);
 
@@ -93,12 +96,12 @@ export function ClientReferences() {
   }, []);
 
   useEffect(() => {
-    if (prefersReducedMotion || isPaused || maxIndex === 0) return;
+    if (prefersReducedMotion || manualPaused || isPaused || maxIndex === 0) return;
     const timer = window.setInterval(() => {
-      setActiveIndex((index) => (index >= maxIndex ? 0 : index + 1));
+      if (!document.hidden) setActiveIndex((index) => (index >= maxIndex ? 0 : index + 1));
     }, 2800);
     return () => window.clearInterval(timer);
-  }, [isPaused, maxIndex, prefersReducedMotion]);
+  }, [isPaused, manualPaused, maxIndex, prefersReducedMotion]);
 
   const handlePointerDown = (event: PointerEvent<HTMLDivElement>) => {
     dragStartRef.current = event.clientX;
@@ -169,6 +172,8 @@ export function ClientReferences() {
           className="references-panel"
           onMouseEnter={() => setIsPaused(true)}
           onMouseLeave={() => setIsPaused(false)}
+          onFocusCapture={() => setIsPaused(true)}
+          onBlurCapture={(event) => { if (!event.currentTarget.contains(event.relatedTarget)) setIsPaused(false); }}
         >
           <div className="references-carousel" aria-label={t("references.carouselLabel")}>
             <button className="references-arrow" type="button" aria-label={t("references.previous")} onClick={goPrevious}>
@@ -220,6 +225,7 @@ export function ClientReferences() {
               <ChevronRight aria-hidden="true" className="h-5 w-5 rtl:rotate-180" />
             </button>
           </div>
+          <div className="mt-2 flex justify-end"><CarouselToggle paused={manualPaused} disabled={prefersReducedMotion} onToggle={() => setManualPaused(current => !current)} /></div>
         </motion.div>
       </div>
     </motion.section>

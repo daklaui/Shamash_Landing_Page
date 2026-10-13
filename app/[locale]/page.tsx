@@ -6,6 +6,7 @@ import { HowItWorks } from "@/components/home/HowItWorks";
 import { SolutionsHub } from "@/components/home/SolutionsHub";
 import { WhyShamash } from "@/components/home/WhyShamash";
 import { createPageMetadata } from "@/lib/localizedMetadata";
+import { RouteMessages } from "@/components/RouteMessages";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   return createPageMetadata((await params).locale, "home");
@@ -13,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default function Home() {
   return (
-    <>
+    <RouteMessages namespace="home">
       <HeroSlider />
       <ClientReferences />
       <WhyShamash />
@@ -21,6 +22,6 @@ export default function Home() {
       <HowItWorks />
       <ClientTestimonials />
       <FinalCTA />
-    </>
+    </RouteMessages>
   );
 }

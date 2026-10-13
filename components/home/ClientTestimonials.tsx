@@ -1,13 +1,16 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
+import { AnimatePresence, motion, useIsPresent } from "framer-motion";
+import type { HTMLMotionProps } from "framer-motion";
+import { useReducedMotion } from "@/lib/useReducedMotion";
 import { ArrowLeft, ArrowRight, Quote } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { useLocalizedTestimonials } from "@/data/localized";
 import { MotionGroup, MotionItem, MotionSection } from "@/components/ui/Motion";
 import { cn } from "@/lib/cn";
 import { motionTokens } from "@/lib/designTokens";
+import { CarouselToggle } from "@/components/ui/CarouselToggle";
 
 const ROTATION_INTERVAL = 12_000;
 
@@ -21,10 +24,12 @@ export function ClientTestimonials() {
     return featuredIndex >= 0 ? featuredIndex : 0;
   });
   const [paused, setPaused] = useState(false);
+  const [manualPaused, setManualPaused] = useState(false);
+  const tabs = useRef<(HTMLButtonElement | null)[]>([]);
   const active = testimonials[activeIndex];
 
   useEffect(() => {
-    if (reducedMotion || paused || testimonials.length < 2) return;
+    if (reducedMotion || manualPaused || paused || testimonials.length < 2) return;
 
     const timer = window.setInterval(() => {
       if (!document.hidden) {
@@ -33,7 +38,7 @@ export function ClientTestimonials() {
     }, ROTATION_INTERVAL);
 
     return () => window.clearInterval(timer);
-  }, [paused, reducedMotion, testimonials.length]);
+  }, [paused, manualPaused, reducedMotion, testimonials.length]);
 
   const selectTestimonial = (index: number) => {
     setActiveIndex(index);
@@ -72,15 +77,11 @@ export function ClientTestimonials() {
           onBlurCapture={(event) => {
             if (!event.currentTarget.contains(event.relatedTarget as Node | null)) setPaused(false);
           }}
-          onKeyDown={(event) => {
-            if (event.key === "ArrowLeft") move(locale === "ar" ? 1 : -1);
-            if (event.key === "ArrowRight") move(locale === "ar" ? -1 : 1);
-          }}
         >
-          <div className="testimonial-stage" role="region" aria-live="polite" aria-label={t("testimonials.selectedLabel")}>
+          <div className="testimonial-stage" role="region" aria-live={paused || manualPaused || reducedMotion ? "polite" : "off"} aria-label={t("testimonials.selectedLabel")}>
             <span className="testimonial-stage__quote-mark" aria-hidden="true"><Quote /></span>
             <AnimatePresence mode="wait" initial={false}>
-              <motion.article
+              <TestimonialPanel
                 key={active.id}
                 id={`testimonial-panel-${active.id}`}
                 role="tabpanel"
@@ -108,15 +109,27 @@ export function ClientTestimonials() {
                     ))}
                   </ul>
                 </div>
-              </motion.article>
+              </TestimonialPanel>
             </AnimatePresence>
           </div>
 
           <div className="testimonials-navigation">
-            <div className="testimonials-tabs" role="tablist" aria-label={t("testimonials.chooseLabel")}>
+            <div className="testimonials-tabs" role="tablist" aria-label={t("testimonials.chooseLabel")} onKeyDown={(event) => {
+              let index = activeIndex;
+              if (event.key === "ArrowRight") index += locale === "ar" ? -1 : 1;
+              else if (event.key === "ArrowLeft") index += locale === "ar" ? 1 : -1;
+              else if (event.key === "Home") index = 0;
+              else if (event.key === "End") index = testimonials.length - 1;
+              else return;
+              event.preventDefault();
+              index = (index + testimonials.length) % testimonials.length;
+              selectTestimonial(index);
+              tabs.current[index]?.focus();
+            }}>
               {testimonials.map((testimonial, index) => (
                 <button
                   key={testimonial.id}
+                  ref={(element) => { tabs.current[index] = element; }}
                   id={`testimonial-tab-${testimonial.id}`}
                   type="button"
                   role="tab"
@@ -136,6 +149,7 @@ export function ClientTestimonials() {
             </div>
 
             <div className="testimonials-arrows" aria-label={t("testimonials.navigationLabel")}>
+              <CarouselToggle paused={manualPaused} disabled={reducedMotion} onToggle={() => setManualPaused(current => !current)} />
               <button type="button" onClick={() => move(-1)} aria-label={t("testimonials.previous")}><ArrowLeft className="rtl:rotate-180" /></button>
               <span aria-hidden="true">{String(activeIndex + 1).padStart(2, "0")} / {String(testimonials.length).padStart(2, "0")}</span>
               <button type="button" onClick={() => move(1)} aria-label={t("testimonials.next")}><ArrowRight className="rtl:rotate-180" /></button>
@@ -155,4 +169,9 @@ function getInitials(name: string) {
     .map((part) => part[0])
     .join("")
     .toUpperCase();
+}
+
+function TestimonialPanel(props: HTMLMotionProps<"article">) {
+  const present = useIsPresent();
+  return <motion.article {...props} aria-hidden={!present || undefined} inert={!present || undefined} />;
 }

@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { motion, useReducedMotion, type Variants } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
+import { useReducedMotion } from "@/lib/useReducedMotion";
 import { Cable, Headset, PencilRuler, SearchCheck } from "lucide-react";
 import { useTranslations } from "next-intl";
 import type { DeliveryStep } from "@/data/howItWorks";

@@ -1,4 +1,4 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { ContactForm } from "@/components/ContactForm";
 import {
@@ -11,14 +11,17 @@ import {
   HeroVisual
 } from "@/components/ui/Hero";
 import { createPageMetadata } from "@/lib/localizedMetadata";
+import { RouteMessages } from "@/components/RouteMessages";
+import { isInterest } from "@/lib/contact-schema";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   return createPageMetadata((await params).locale, "contact", "/contact");
 }
 
-export default function ContactPage() {
-  const t = useTranslations("contact");
-  const common = useTranslations("common");
+export default async function ContactPage({ searchParams }: { searchParams: Promise<{ interest?: string }> }) {
+  const t = await getTranslations("contact");
+  const common = await getTranslations("common");
+  const interest = (await searchParams).interest;
   return (
     <HeroSection tone="neutral">
       <HeroContainer>
@@ -46,7 +49,7 @@ export default function ContactPage() {
           </div>
         </HeroContent>
         <HeroVisual>
-          <ContactForm />
+          <RouteMessages namespace="contact"><ContactForm initialInterest={isInterest(interest) ? interest : ""} /></RouteMessages>
         </HeroVisual>
       </HeroContainer>
     </HeroSection>

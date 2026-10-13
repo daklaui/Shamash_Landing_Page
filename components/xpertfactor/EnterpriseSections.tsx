@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import { Button } from "@/components/ui/Button";
-import { MotionItem, MotionSection } from "@/components/ui/Motion";
+import { MotionItem, MotionListItem, MotionSection } from "@/components/ui/Motion";
 import { cn } from "@/lib/cn";
 import { ProductFrame } from "./ProductFrame";
 import { SectionIntro } from "./SectionIntro";
@@ -205,7 +205,7 @@ export function Deployment({ content }: { content: { eyebrow: string; title: str
         </div>
         <ol className="xf-deployment">
           {content.steps.map((step, index) => (
-            <MotionItem as="article" key={step} className="xf-deployment__step"><span>{String(index + 1).padStart(2, "0")}</span><h3>{step}</h3>{index < content.steps.length - 1 ? <ArrowRight aria-hidden="true" /> : null}</MotionItem>
+            <MotionListItem key={step} className="xf-deployment__step"><span>{String(index + 1).padStart(2, "0")}</span><h3>{step}</h3>{index < content.steps.length - 1 ? <ArrowRight aria-hidden="true" /> : null}</MotionListItem>
           ))}
         </ol>
         <p className="mt-6 max-w-3xl text-xs leading-5 text-neutral-muted">{content.disclaimer}</p>
@@ -244,8 +244,8 @@ export function ProductCTA({ content, scope, productName = "XPERT FACTOR" }: { c
             <h2>{content.title}</h2>
             <p className="xf-cta__description">{content.description}</p>
             <div className="xf-cta__actions">
-              <Button href="/contact">{content.primary}</Button>
-              <Button href="/contact" variant="secondary">{content.secondary}</Button>
+              <Button href="/contact?interest=xpertFactor">{content.primary}</Button>
+              <Button href="/contact?interest=xpertFactor" variant="secondary">{content.secondary}</Button>
             </div>
           </div>
           <div className="xf-cta__preview">

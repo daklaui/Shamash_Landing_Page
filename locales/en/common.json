@@ -138,4 +138,6 @@
     "description": "The address may have changed or the page may no longer exist.",
     "homeAction": "Return to home"
   }
+,
+  "accessibility": {"skipToMain":"Skip to main content","pauseCarousel":"Pause carousel","resumeCarousel":"Resume carousel","motionDisabled":"Automatic playback disabled by your motion preference"}
 }

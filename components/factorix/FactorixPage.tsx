@@ -121,7 +121,7 @@ function FactorixHero({ t }: { t: ReturnType<typeof useTranslations<"factorix">>
           </h1>
           <p className="mt-4 max-w-[61ch] text-[clamp(0.98rem,1.15vw,1.15rem)] font-medium leading-7 text-slate-600">{t("hero.description")}</p>
           <div className="mt-6 flex flex-wrap gap-3">
-            <Button href="/contact">{t("hero.primaryCta")}</Button>
+            <Button href="/contact?interest=factorix">{t("hero.primaryCta")}</Button>
             <Button href="#overview" variant="secondary" showIcon={false}>{t("hero.secondaryCta")} <ArrowDown aria-hidden="true" className="size-4" /></Button>
           </div>
           <p className="mt-4 text-sm font-bold text-slate-500">{t("hero.reassurance")}</p>
@@ -183,7 +183,7 @@ export function FactorixPage() {
         <div className="container-shell flex items-center justify-between gap-4 py-3">
           <span className="text-sm font-black text-shamash-navy">Factorix</span>
           <div className="flex items-center gap-1">{navIds.map((id) => <a key={id} href={`#${id}`} className="rounded-full px-3 py-2 text-xs font-black text-slate-600 transition hover:bg-shamash-blue/10 hover:text-shamash-navy">{t(`subnav.items.${id}`)}</a>)}</div>
-          <Link href="/contact" className="rounded-full bg-[#0865d8] px-4 py-2 text-xs font-black text-white">{t("subnav.demo")}</Link>
+          <Link href="/contact?interest=factorix" className="rounded-full bg-[#0865d8] px-4 py-2 text-xs font-black text-white">{t("subnav.demo")}</Link>
         </div>
       </nav>
 

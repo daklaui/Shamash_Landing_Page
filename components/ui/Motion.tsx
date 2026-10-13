@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, useReducedMotion } from "framer-motion";
+import { motion } from "framer-motion";
+import { useReducedMotion } from "@/lib/useReducedMotion";
 import type { HTMLMotionProps, Variants } from "framer-motion";
 import type { ReactNode } from "react";
 import { cn } from "@/lib/cn";
@@ -106,4 +107,9 @@ export function MotionItem({
       {children}
     </Component>
   );
+}
+
+export function MotionListItem({ children, className, ...props }: HTMLMotionProps<"li">) {
+  const reducedMotion = Boolean(useReducedMotion());
+  return <motion.li variants={itemVariants(reducedMotion)} className={cn(className)} {...props}>{children}</motion.li>;
 }

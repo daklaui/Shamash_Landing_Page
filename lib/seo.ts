@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import type { AppLocale } from "@/i18n/config";
-import { locales } from "@/i18n/config";
+import { languageAlternates, siteIndexable, siteOrigin } from "./site";
 
 const siteName = "Shamash IT";
-const baseUrl = "https://www.shamash-it.com";
+const baseUrl = siteOrigin;
 
 export function createMetadata({
   title,
@@ -18,16 +18,15 @@ export function createMetadata({
 }): Metadata {
   const normalizedPath = path === "/" ? "" : path;
   const url = new URL(`/${locale}${normalizedPath}`, baseUrl).toString();
-  const languages = Object.fromEntries(
-    locales.map((language) => [
-      language === "tn" ? "ar-TN" : language,
-      new URL(`/${language}${normalizedPath}`, baseUrl).toString()
-    ])
-  );
+  const languages = languageAlternates(normalizedPath);
+  const cleanTitle = title.replace(/^Shamash IT\s*\|\s*/i, "").replace(/(?:\s*\|\s*Shamash IT)+\s*$/i, "");
+  const brandedTitle = /Shamash IT/i.test(cleanTitle) ? cleanTitle : `${cleanTitle} | ${siteName}`;
+  const socialImage = { url: `${baseUrl}/images/hero-xpertfactor.png`, alt: "Xpert Factor — Shamash IT" };
 
   return {
-    title,
+    title: { absolute: brandedTitle },
     description,
+    robots: { index: siteIndexable, follow: siteIndexable },
     alternates: {
       canonical: url,
       languages: {
@@ -36,16 +35,18 @@ export function createMetadata({
       }
     },
     openGraph: {
-      title,
+      title: brandedTitle,
       description,
       url,
       siteName,
-      type: "website"
+      type: "website",
+      images: [socialImage]
     },
     twitter: {
       card: "summary_large_image",
-      title,
-      description
+      title: brandedTitle,
+      description,
+      images: [socialImage]
     }
   };
 }

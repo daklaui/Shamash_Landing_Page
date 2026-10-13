@@ -1,6 +1,7 @@
 "use client";
 
-import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
+import { useReducedMotion } from "@/lib/useReducedMotion";
 import type { TargetAndTransition, Variants } from "framer-motion";
 import Image from "next/image";
 import type { CSSProperties, KeyboardEvent, RefObject } from "react";

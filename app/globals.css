@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.skip-link {
+  position: fixed;
+  inset-block-start: 0.75rem;
+  inset-inline-start: 0.75rem;
+  z-index: 1000;
+  transform: translateY(-200%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
 :root {
   --background: #ffffff;
   --foreground: #374151;
@@ -358,6 +370,8 @@ textarea {
 }
 
 .hero-slider-description {
+  flex-shrink: 0;
+  padding-bottom: 0.25rem;
   margin-top: clamp(1.1rem, 1.6vw, 1.6rem);
   min-height: clamp(6rem, 9vw, 7rem);
   max-width: 58ch;
@@ -368,6 +382,7 @@ textarea {
 }
 
 .hero-slider-actions {
+  flex-shrink: 0;
   margin-top: clamp(1.35rem, 2vw, 2rem);
   display: flex;
   flex-direction: column;
@@ -375,6 +390,7 @@ textarea {
 }
 
 .hero-slider-progress {
+  flex-shrink: 0;
   margin-top: clamp(1.5rem, 3vw, 2.75rem);
 }
 
@@ -3362,6 +3378,7 @@ body.site-loader-active {
   }
 
   .hero-slider-title {
+  flex-shrink: 0;
     max-width: 20ch;
     font-size: clamp(2.25rem, 3.05vw, 3.05rem);
     line-height: 1.01;

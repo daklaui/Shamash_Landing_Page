@@ -10,23 +10,24 @@
     "slideStatus": "Slide {current} of {total}: {title}",
     "showSlide": "Show {title}",
     "slides": {
+      "recouvrement-creances": {"category":"Recouvrement et credit management","title":"Debt collection","headline":"Turn outstanding receivables into payments with intelligent collections","description":"Structure collection workflows, automate reminders, manage payment plans and disputes, and track each receivable through to settlement.","primaryCta":"Request a demo","secondaryCta":"Explore the solution","capabilities":["Relances automatisées","Échéanciers","Litiges","Aging","Pilotage","Intégrations"],"imageAlt":"Parcours de recouvrement transformant les factures échues en paiements sécurisés","metrics":[{"label":"Cycle de recouvrement","value":"Structuré"},{"label":"Visibilité","value":"Complète"}]},
       "xpertfactor": {
         "category": "Enterprise Financial Solutions", "title": "Xpert Factor", "headline": "Digital Factoring Platform for Banks and Financial Institutions", "description": "End-to-end factoring, financing, credit risk, collections, accounting, and reporting in one secure integrated platform.",
-        "primaryCta": "Explore Xpert Factor", "secondaryCta": "Watch Video",
+        "primaryCta": "Explore Xpert Factor", "secondaryCta": "Request a demo",
         "capabilities": ["Credit and Risk", "Financing Workflows", "Collections", "Accounting", "Reporting", "Banking Integrations"],
         "imageAlt": "Xpert Factor enterprise factoring platform interface",
         "metrics": [{"label": "Financing workflows", "value": "End-to-end"}, {"label": "Banking integrations", "value": "Secure"}]
       },
       "factorix": {
         "category": "Business Management Solutions", "title": "Factorix", "headline": "Complete Business Management for Growing Companies", "description": "Manage invoices, quotations, purchase orders, payments, clients, inventory, accounting, cash flow, and reporting from one connected platform.",
-        "primaryCta": "Explore Factorix", "secondaryCta": "Watch Demo",
+        "primaryCta": "Explore Factorix", "secondaryCta": "Request a demo",
         "capabilities": ["Invoices", "Payments", "Purchasing", "Inventory", "CRM", "Cash Flow", "Reporting"],
         "imageAlt": "Factorix business management dashboard interface",
         "metrics": [{"label": "Operations covered", "value": "7 modules"}, {"label": "Business view", "value": "Unified"}]
       },
       "document-management": {
         "category": "Document Management Solutions", "title": "XpertArchive", "headline": "Digitize, Secure, Search, Approve, and Archive", "description": "Turn paper and scattered files into searchable, controlled, secure document workflows with OCR, approval flows, signatures, and archiving.",
-        "primaryCta": "Explore XpertArchive", "secondaryCta": "See How It Works",
+        "primaryCta": "Explore XpertArchive", "secondaryCta": "Request a demo",
         "capabilities": ["OCR", "Secure Archive", "Workflow Approval", "Electronic Signature", "Versioning", "Search"],
         "imageAlt": "Document management workflow and archive interface",
         "metrics": [{"label": "Document flow", "value": "Searchable"}, {"label": "Approvals", "value": "Controlled"}]

@@ -18,6 +18,7 @@
     "ctaDescription": "Share your workflows, current systems, reporting needs, and transformation goals. Shamash IT will help shape the right technical path."
   },
   "items": {
+    "recouvrement-creances": {"name":"Debt collection","headline":"Turn your receivables into cash.","summary":"Structure your collection process, automate reminders, manage payment plans and disputes, and maintain clear visibility of every receivable until settlement.","metadata":{"title":"Debt collection","description":"Structure your collection process, automate reminders, manage payment plans and disputes, and maintain clear visibility of every receivable until settlement."}},
     "xpertfactor": {
       "name": "Xpert Factor",
       "audience": "Banks, factoring companies, and financial institutions",

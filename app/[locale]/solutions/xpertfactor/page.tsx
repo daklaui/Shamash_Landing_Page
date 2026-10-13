@@ -4,6 +4,7 @@ import { XpertFactorPage as XpertFactorProductPage } from "@/components/xpertfac
 import { isAppLocale } from "@/i18n/config";
 import { rawMessage } from "@/i18n/raw";
 import { createMetadata } from "@/lib/seo";
+import { RouteMessages } from "@/components/RouteMessages";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -14,5 +15,5 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 export default function XpertFactorPage() {
-  return <XpertFactorProductPage />;
+  return <RouteMessages namespace="xpertFactor"><XpertFactorProductPage /></RouteMessages>;
 }

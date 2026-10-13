@@ -18,6 +18,7 @@ import { SectionHeader } from "@/components/ui/SectionHeader";
 import { MotionItem, MotionSection } from "@/components/ui/Motion";
 import { useTranslations } from "next-intl";
 import { useLocalizedSolution, type SolutionId } from "@/data/localized";
+import { enquiryLink } from "@/lib/enquiry-link";
 import type { SolutionIdentityId } from "@/data/preparedInformation";
 
 export function SolutionPage({ solutionId }: { solutionId: SolutionId }) {
@@ -37,7 +38,7 @@ export function SolutionPage({ solutionId }: { solutionId: SolutionId }) {
             </p>
             <HeroDescription>{solution.summary}</HeroDescription>
             <HeroActions>
-              <Button href="/contact">{solution.ctaLabel}</Button>
+              <Button href={enquiryLink(solutionId)}>{solution.ctaLabel}</Button>
               <Button href="/services" variant="secondary">
                 {common("actions.viewSupportingServices")}
               </Button>

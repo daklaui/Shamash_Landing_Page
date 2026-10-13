@@ -21,4 +21,6 @@
     "web-mobile-architecture": {"title": "Delivery applications", "leftTitle": "Delivery produit", "rightTitle": "Release Cloud", "metricLabel": "خدمات تحت الـmonitoring", "line": "خدمات تحت الـmonitoring", "rows": ["API متجربة", "Mobile synchronisé", "Release متراقبة"], "chips": ["Web", "Mobile", "DevOps"]}
   }},
   "notFound": {"eyebrow": "الصفحة موش موجودة", "title": "الصفحة هاذي موش متوفّرة.", "description": "يمكن العنوان تبدّل ولا الصفحة ما عادش موجودة.", "homeAction": "ارجع للرئيسية"}
+,
+  "accessibility": {"skipToMain":"امشي للمحتوى الرئيسي","pauseCarousel":"وقّف العرض التلقائي","resumeCarousel":"كمّل العرض التلقائي","motionDisabled":"العرض التلقائي موقّف حسب اختيار الحركة"}
 }

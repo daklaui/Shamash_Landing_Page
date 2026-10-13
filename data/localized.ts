@@ -12,6 +12,7 @@ import {
 import { useTranslations } from "next-intl";
 import type { VisualType } from "./solutions";
 import { rawMessage } from "@/i18n/raw";
+import { enquiryLink } from "@/lib/enquiry-link";
 
 export const solutionIds = [
   "xpertfactor",
@@ -102,8 +103,8 @@ export function useLocalizedHeroSlides() {
   return solutionIds.map((id) => ({
     id,
     ...items[id],
-    primaryCta: { label: items[id].primaryCta, href: heroMeta[id].primaryHref },
-    secondaryCta: { label: items[id].secondaryCta, href: heroMeta[id].secondaryHref },
+    primaryCta: { label: items[id].primaryCta, href: id === "recouvrement-creances" ? enquiryLink(id) : heroMeta[id].primaryHref },
+    secondaryCta: { label: items[id].secondaryCta, href: id === "recouvrement-creances" ? "/solutions/recouvrement-creances" : heroMeta[id].secondaryHref === "/contact" ? enquiryLink(id) : heroMeta[id].secondaryHref },
     image: { src: heroMeta[id].image, alt: items[id].imageAlt },
     visualType: heroMeta[id].visualType
   }));

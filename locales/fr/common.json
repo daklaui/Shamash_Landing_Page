@@ -37,4 +37,6 @@
     }
   },
   "notFound": {"eyebrow": "Page introuvable", "title": "Cette page n’est pas disponible.", "description": "L’adresse a peut-être changé ou la page n’existe plus.", "homeAction": "Retour à l’accueil"}
+,
+  "accessibility": {"skipToMain":"Aller au contenu principal","pauseCarousel":"Mettre le carrousel en pause","resumeCarousel":"Reprendre le carrousel","motionDisabled":"Lecture automatique désactivée selon vos préférences"}
 }

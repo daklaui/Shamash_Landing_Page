@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, useInView, useReducedMotion, useScroll, useSpring } from "framer-motion";
+import { motion, useInView, useScroll, useSpring } from "framer-motion";
+import { useReducedMotion } from "@/lib/useReducedMotion";
 import { useRef } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { useWhyShamashItems } from "@/data/localized";
